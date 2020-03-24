@@ -4,7 +4,7 @@ title: "UCSD CSE11 – Accelerated Introduction to Programming"
 doodle: "/doodle.png"
 ---
 
-# Accelerated Introduction to Programming (UCSD CSE 11)
+# Accelerated Intro to Programming (UCSD CSE 11)
 
 <a href="https://jpolitz.github.io">Joe Gibbs Politz</a> (Instructor)
 
