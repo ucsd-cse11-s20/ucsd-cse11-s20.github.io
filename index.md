@@ -83,7 +83,8 @@ San Diego) at [FILL]. You can visit the discussions at:
 <a id="b:disc"></a>
 <h3>Schedule</h3>
 The schedule below outlines topics, due dates, and links to assignments. In a typical week, by 5pm Monday before class all due dates, readings, and notable events in the course until the following week will be posted here. So if you check the schedule at the beginning of the week, you'll know when all reading quizzes, programming assignments, etc. will be due. We will often have the schedule confirmed more than a week out, but we'll always be at least a week ahead.
-<iframe style="border: none; border-top: 1px solid grey; border-spacing: 2px" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vS-GrEMl81YfrS7alVNIZSo6b7embAWj7wcIxW68xwz4oQTZiz5kEMCLesS4OIO6rTVWAfrX0vyQ51C/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false" width="100%" height="800px">< /iframe>
+
+<iframe style="border: none; border-top: 1px solid grey; border-spacing: 2px" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vS-GrEMl81YfrS7alVNIZSo6b7embAWj7wcIxW68xwz4oQTZiz5kEMCLesS4OIO6rTVWAfrX0vyQ51C/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false" width="100%" height="800px"></iframe>
 
 
 <a id="b:exams"></a>
@@ -104,6 +105,14 @@ The schedule below outlines topics, due dates, and links to assignments. In a ty
 
 ### Staff
 <a id="staff"></a>
+<p>
+<a href="https://jpolitz.github.io" target="">Prof Joe Gibbs Politz</a> (Instructor)
+</p>
+
+There are 10 staff(instructor, TAs, and tutors) to help with your learning, and a few kinds of help session
+you can attend. 
+<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSHcR4l04Pfe8mEBjKeNC_zlCtu7bVwN0uJuJxqlNHjpGWLZFFepkILjeG6xqDrlFJsvcWnJ8Ru3gYn/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false" width="100%" height="800px"></iframe>
+
 
 [COMING SOON]
 
