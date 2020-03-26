@@ -111,7 +111,7 @@ The schedule below outlines topics, due dates, and links to assignments. In a ty
 
 There are 10 staff(instructor, TAs, and tutors) to help with your learning, and a few kinds of help session
 you can attend. 
-<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSHcR4l04Pfe8mEBjKeNC_zlCtu7bVwN0uJuJxqlNHjpGWLZFFepkILjeG6xqDrlFJsvcWnJ8Ru3gYn/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false" width="100%" height="800px"></iframe>
+<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSHcR4l04Pfe8mEBjKeNC_zlCtu7bVwN0uJuJxqlNHjpGWLZFFepkILjeG6xqDrlFJsvcWnJ8Ru3gYn/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false" width="100%" height="500px"></iframe>
 
 
 [COMING SOON]
