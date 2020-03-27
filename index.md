@@ -113,8 +113,19 @@ There are 10 staff(instructor, TAs, and tutors) to help with your learning, and 
 you can attend. 
 <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSHcR4l04Pfe8mEBjKeNC_zlCtu7bVwN0uJuJxqlNHjpGWLZFFepkILjeG6xqDrlFJsvcWnJ8Ru3gYn/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false" width="100%" height="500px"></iframe>
 
+The first is group help hours at the times listed below. Group help hours are a great place for any kind of question about the course, from help with your assignment to clarifications about material in lecture to questions beyond what we cover in the course.
+<iframe src="https://calendar.google.com/calendar/embed?src=ucsd.edu_7t0ttaf778binv3hrkg0h3hom0%40group.calendar.google.com&ctz=America%2FLos_Angeles" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+The second is 1-on-1 help hours where tutors are available to answer your questions about any course content, though often this is a good place to go for programming help. At the times below, the course staff will be available to answer your questions. You can use https://autograder.ucsd.edu to request help by filing a help ticket and a tutor will come to help. This system keeps track of a queue of help requests and we help out on a first-come, first-served basis. 
 
-[COMING SOON]
+That said, there are some important rules for asking for help.
+You must give a specific, actionable request in your help ticket. If your ticket simply says “I'm stuck,” we will remove the ticket from the queue with a response that urges you to be more specific. It's OK to ask questions if you're not sure what you're supposed to be doing on an assignment.
+You must list at least one specific thing you tried in order to resolve the problem on your own, or a guess at your understanding of what you should be doing if you're lost.
+
+Tutors can help you understand your problem and a useful approach. They cannot solve your problems for you or do the programming for you. It could happen that you're still stuck even after getting tutor help, and that's OK! You can always work the problem on your own, come to office hours for a different perspective, or come back to the problem (even after the deadline).
+These rules help us make sure we get timely and actionable help to as many students as possible. They also encourage students to do some meaningful work on their own before reaching out for help – the goal of the course is for you to be able to do programming work on your own!
+<iframe src="https://calendar.google.com/calendar/embed?src=ucsd.edu_1sqq70f2o1tt4q5g6efmlaqurg%40group.calendar.google.com&ctz=America%2FLos_Angeles" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+
+The third is through Piazza. [COMING SOON]
 
 <a id="grading"></a>
 ## Grading
