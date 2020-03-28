@@ -104,13 +104,24 @@ you can attend.
 <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSHcR4l04Pfe8mEBjKeNC_zlCtu7bVwN0uJuJxqlNHjpGWLZFFepkILjeG6xqDrlFJsvcWnJ8Ru3gYn/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false" width="100%" height="500px"></iframe>
 
 
-The first is **group help hours** at the times listed below. Group help hours are a great place for any kind of question about the course, from help with your assignment to clarifications about material in lecture to questions beyond what we cover in the course.
-<iframe src="https://calendar.google.com/calendar/embed?src=ucsd.edu_7t0ttaf778binv3hrkg0h3hom0%40group.calendar.google.com&ctz=America%2FLos_Angeles" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+The first is **group help hours** at the times listed below. Group help hours
+are a great place for any kind of question about the course, from help with
+your assignment to clarifications about material in lecture to questions beyond
+what we cover in the course. Group help hours is **not** a good place to get
+help with your specific debugging challenges with your code, since we'll
+usually be reluctant to share one students' code with a whole group, as that
+could rob the rest of the group of some productive struggle and learning.
+
+<iframe
+src="https://calendar.google.com/calendar/embed?src=ucsd.edu_7t0ttaf778binv3hrkg0h3hom0%40group.calendar.google.com&ctz=America%2FLos_Angeles"
+style="border: 0" width="800" height="600" frameborder="0"
+scrolling="no"></iframe>
 
 The second is **1-on-1 help hours** where TAs and tutors are available to
 answer your questions about any course content, though often this is a good
 place to go for programming help. At the times below, the course staff will be
-available to answer your questions.
+available to answer your questions, and it's a great place to get debugging
+help, since you'll be able to 1-on-1 screenshare with a tutor.
 
 You can see instructions for how we're setting this up for remote access here:
 
