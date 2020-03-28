@@ -54,7 +54,8 @@ quizzes are required work to demonstrate your consistent engagement with the
 material.
 
 In our originally-scheduled lecture time, we will play the videos with an
-opportunity for live questions and clarifications. Attendance is encouraged but
+opportunity for live questions, clarifications, and some prompts for you to
+work on beyond the assigned reading and videos. Attendance is encouraged but
 not required. Recordings of relevant classwide discussions will be posted after
 the meetings, though the selected videos/reading for the given day are the
 official “lecture” for that day.
