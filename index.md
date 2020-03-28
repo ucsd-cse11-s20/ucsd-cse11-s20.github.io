@@ -84,41 +84,6 @@ The schedule below outlines topics, due dates, and links to assignments. In a ty
 <iframe style="border: none; border-top: 1px solid grey; border-spacing: 2px" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vS-GrEMl81YfrS7alVNIZSo6b7embAWj7wcIxW68xwz4oQTZiz5kEMCLesS4OIO6rTVWAfrX0vyQ51C/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false" width="100%" height="800px"></iframe>
 
 
-<a id="b:exams"></a>
-<h3>Exams</h3>
-
-In place of on-paper exams, we will follow a different procedure for “exams”
-this quarter.
-
-Twice during the quarter and once at the time of the final exam, we will give
-you a short programming assignment that you must complete in a short time frame
-(2-3 days) without any help from other people, including the course staff, but
-with any notes and resources from the course. Along with submitting the
-program, you will record a short video of yourself presenting the program you
-wrote, demonstrating its behavior and your understanding. We'll give some
-opportunities for practice with this process, and much more detailed
-instructions with the exam release.
-
-It's worth explaining why we are using this mechanism. There are at least two
-reasons:
-
-1. Presenting your code, and demonstrating it via screenshare, is a really
-important skill and shows us a lot of your learning. Getting practice with this
-style of presentation is a good thing for you to learn in general and a rich
-way for us to assess your skills.
-2. The main thing that in-person, on-paper exams let us do is easily verify
-that it is in fact **you**, the student, completing a major assessment. We can
-similarly do so with a video – many students are concerned that cheating will
-be frequent in all-remote courses, and this is our way of ensuring that we are
-giving grades to the people who earned them.
-
-We will delete all the videos we receive from you after assigning final grades
-for the course, and they will be stored in a university-controlled Google Drive
-directory during the quarter only accessible to the course staff.
-
-Please send a private message on Piazza or an email to the instructor if you
-have concerns about this exam policy or cannot complete exams in this style for
-some reason.
 
 <a id="schedule"></a>
 
@@ -194,6 +159,69 @@ There are three components to your grade in the course:
 - 20% Engagement (surveys, lecture quizzes, etc)
 - 50% Programming Assignments (weekly)
 - 30% Exams (Code + video)
+
+<a id="g:engage"></a>
+<h3>Engagement</h3>
+
+Each lecture will come with an associated quiz. Completing the quiz before the
+next lecture section with at least half of the answers correct gains engagement
+credit. You can also get engagement credit by submitting various surveys and
+other small engagement tasks we may ask of you throughout the quarter.
+
+<a id="p:programming"></a>
+<h3>Programming</h3>
+
+Most weeks there will be a programming assignment. Direct practice with
+programming will make up the majority of your work in the course.
+
+On each submission, you will get a grade which partially comes from an
+automatic grade based on the correctness of your code (a small part of your
+grade) and some manually-written **feedback** from the course staff (the larger
+portion). If you don't complete the assignment because you didn't attempt some
+of the parts, you'll miss out on most of the credit. However, if you make a
+clear effort at all the parts, we will give you **feedback tasks** as part of
+your grade report. After you get your grade, you'll follow up with a new
+submission that addresses the feedback tasks and your grade will be based on
+how well you responded. A more correct and thorough initial submission will
+usually have a much smaller set of feedback tasks.
+
+<a id="g:exams"></a>
+<h3>Exams</h3>
+
+In place of on-paper exams, we will follow a different procedure for “exams”
+this quarter.
+
+Twice during the quarter and once at the time of the final exam, we will give
+you a short programming assignment that you must complete in a short time frame
+(2-3 days) without any help from other people, including the course staff. You
+can use any resources, notes, readings, and past code from the course to help
+in addition to Web-based resources.  Along with submitting the program, you
+will record a short video of yourself presenting the program you wrote,
+demonstrating its behavior and your understanding. We'll give some
+opportunities for practice with this process, and much more detailed
+instructions with the exam release.
+
+It's worth explaining why we are using this mechanism. There are at least two
+reasons:
+
+1. Presenting your code, and demonstrating it via screenshare, is a really
+important skill and shows us a lot of your learning. Getting practice with this
+style of presentation is a good thing for you to learn in general and a rich
+way for us to assess your skills.
+2. The main thing that in-person, on-paper exams let us do is easily verify
+that it is in fact **you**, the student, completing a major assessment. We can
+similarly do so with a video – many students are concerned that cheating will
+be frequent in all-remote courses, and this is our way of ensuring that we are
+giving grades to the people who earned them.
+
+We will delete all the videos we receive from you after assigning final grades
+for the course, and they will be stored in a university-controlled Google Drive
+directory during the quarter only accessible to the course staff.
+
+Please send a private message on Piazza or an email to the instructor if you
+have concerns about this exam policy or cannot complete exams in this style for
+some reason.
+
 
 <a id="policies"></a>
 ## Policies
