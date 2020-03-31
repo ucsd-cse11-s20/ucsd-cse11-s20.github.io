@@ -93,7 +93,6 @@ the current week.
 
 <a id="schedule"></a>
 
-[COMING SOON]
 
 
 <a id="staff"></a>
