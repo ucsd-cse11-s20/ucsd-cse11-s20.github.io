@@ -61,9 +61,9 @@ the meetings, though the selected videos/reading for the given day are the
 official “lecture” for that day.
 
 The scheduled lecture time is (in the time zone of San Diego) Tuesday and
-Thursday from 11am-12:20pm. You can visit the lectures via:
+Thursday from 11am-12:20pm. You can visit the lectures via zoom links provided
+with each of the lecture links in the schedule spreadsheet below.
 
-[COMING SOON]
 
 <a id="b:disc"></a>
 <h3>Discussion Sections</h3>
@@ -72,9 +72,8 @@ Discussion sections will be used to demo tools and answer questions about the
 programming assignment specifications. They will be recorded and released, also
 have similar discussion prompts and breakout groups to work on problems.
 Attendance is encouraged but optional. The discussions are (in the time zone of
-San Diego) at [FILL]. You can visit the discussions at:
-
-[COMING SOON]
+San Diego) from 4-4:50pm. Zoom links for the discussion sections will be posted
+in the resources provided in the schedule spreadsheet below
 
 
 <a id="b:disc"></a>
