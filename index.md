@@ -104,7 +104,7 @@ the current week.
 <a href="https://jpolitz.github.io" target="">Prof Joe Gibbs Politz</a> (Instructor)
 </p>
 
-There are 10 staff(instructor, TAs, and tutors) to help with your learning, and a few kinds of help sessions
+There are 11 staff(instructor, TAs, and tutors) to help with your learning, and a few kinds of help sessions
 you can attend. 
 <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSHcR4l04Pfe8mEBjKeNC_zlCtu7bVwN0uJuJxqlNHjpGWLZFFepkILjeG6xqDrlFJsvcWnJ8Ru3gYn/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false" width="100%" height="500px"></iframe>
 
@@ -121,6 +121,8 @@ could rob the rest of the group of some productive struggle and learning.
 src="https://calendar.google.com/calendar/embed?src=ucsd.edu_7t0ttaf778binv3hrkg0h3hom0%40group.calendar.google.com&ctz=America%2FLos_Angeles"
 style="border: 0" width="800" height="600" frameborder="0"
 scrolling="no"></iframe>
+
+
 
 The second is **1-on-1 help hours** where TAs and tutors are available to
 answer your questions about any course content, though often this is a good
