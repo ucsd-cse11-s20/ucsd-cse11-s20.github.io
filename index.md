@@ -104,7 +104,7 @@ the current week.
 <a href="https://jpolitz.github.io" target="">Prof Joe Gibbs Politz</a> (Instructor)
 </p>
 
-There are 11 staff(instructor, TAs, and tutors) to help with your learning, and a few kinds of help sessions
+There are 12 staff members(instructor, TAs, and tutors) to help with your learning, and a few kinds of help sessions
 you can attend. 
 <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSHcR4l04Pfe8mEBjKeNC_zlCtu7bVwN0uJuJxqlNHjpGWLZFFepkILjeG6xqDrlFJsvcWnJ8Ru3gYn/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false" width="100%" height="500px"></iframe>
 
