@@ -16,8 +16,6 @@ doodle: "/doodle.png"
 <a href="#policies">Policies</a>
 </p>
 
-<b>This web site is under constant revision until the start of the quarter.</b>
-
 In this course, you will learn to write, trace, and test programs; explore the
 interactions between programs and data; and practice organizing programs for
 clarity and re-use.
@@ -246,9 +244,9 @@ some reason.
 
 ### Academic Integrity
 
-We have a [missive on academic integrity you must agree
-to TODO update](https://docs.google.com/document/d/1F6tu-82W5kFkEkZG8n4F7p-MLhyFVWLdPw5Tm1fABfM/edit?folder=1jNMUNlJuyXaOxDE5MdNNfRFARxfP40Rr#)
-that details some examples of what we expect in terms of collaboration in the
+Individual assignments will describe their academic integrity requirements.
+This have a [missive on academic integrity](https://docs.google.com/document/d/1F6tu-82W5kFkEkZG8n4F7p-MLhyFVWLdPw5Tm1fABfM/edit?folder=1jNMUNlJuyXaOxDE5MdNNfRFARxfP40Rr#)
+has some details some examples of what we expect in terms of collaboration in the
 course.
 
 Note that with the course remote, one challenge we face as an instructional
