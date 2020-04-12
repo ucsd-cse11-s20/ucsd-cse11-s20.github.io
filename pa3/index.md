@@ -6,8 +6,8 @@ doodle: "/doodle.png"
 
 # Programming Assignment 3 – Class Practice
 
-<p style="border: 2px dotted red; padding: 1em">
-This is a draft
+<p style="border: 2px dotted red; padding: 1em; background-color: #fce803">
+This is a draft, this notice will be released when the PA is finalized.
 </p>
 
 This programming assignment will help you practice writing classes.
@@ -17,7 +17,7 @@ You will upload _several_ Java files for this assignment, detailed below.
 ## Drill 1
 
 Write three classes as described below. They do not need to have any methods or
-constructors. Save them in Drill1.java.
+constructors. Save them in a file called `Drill1.java`.
 
 - A class named `A` with two fields, `int f1` and `String f2`
 - A class named `B` with two fields, `A field1` and `String field2`
@@ -25,7 +25,8 @@ constructors. Save them in Drill1.java.
 
 ## Drill 2
 
-Write a file containing the following class definitions:
+Write a file called `Drill2.java` containing the following class definitions
+(you can copy/paste them):
 
 ```
 class C1 {
@@ -54,9 +55,5 @@ Then add a class definition called `Drill2` with the following fields:
   the `first` field.
 
 ## Drill 3
-
-
-
-
 
 
