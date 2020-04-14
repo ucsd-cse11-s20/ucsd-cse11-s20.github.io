@@ -62,12 +62,15 @@ fields: one field called `contents` of type `String`, and one field called
 initializes those fields. In it, write the following methods:
 
 - `hasMention` which takes a `String` called `username` and checks if the
-  string `@` followed by that username apppears in the Tweet contents
+  string `@` followed by that username apppears in the Tweet contents,
+  returning `true` if it doesn and `false` otherwise.
 - `hasLike` which takes no arguments and returns `true` if the tweet has zero
   likes, false otherwise.
 - `firstMention` which takes no arguments and returns a `String` containing the
   substring between the _first_ appearance of the `@` character in the
-  `contents` and the first space character after that.
+  `contents` and the first space character after that. If there is no space
+  after the `@`, or if there's no `@`, the empty string `""` should be
+  returned.
 
 Also in `Drill3.java`, write a class called `ReplyTweet` that has three fields:
 one called `replyTo` of type `TextTweet`, one called `contents` of type
@@ -120,5 +123,4 @@ it's a reply to a reply). This is true of many systems, like email, Facebook
 comments, Piazza followups, and so on. With the class structure in Drill3 with
 ReplyTweet and TextTweet, could you construct an example of a reply to a reply
 to a Tweet? Why or why not?
-
 
