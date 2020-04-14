@@ -28,7 +28,7 @@ constructors. Save them in a file called `Drill1.java`.
 Create a file called `Drill2.java` containing the following class definitions
 (you can copy/paste them from here):
 
-```
+```java
 class C1 {
   C2 other;
   C1(C2 other) {
@@ -54,13 +54,12 @@ Then add a class definition called `Drill2` with the following fields:
   `C1` object with its `other` field _the same C2 object_ as the one stored in
   the `first` field.
 
-
 ## Drill 3 (auto)
 
 In a file called `Drill3.java`, write a class called `TextTweet` that has two
 fields: one field called `contents` of type `String`, and one field called
-`likes` of type `int`. Give it a default constructor of one argument that
-initializes that field. In it, write the following methods:
+`likes` of type `int`. Give it a default constructor of two arguments that
+initializes those fields. In it, write the following methods:
 
 - `hasMention` which takes a `String` called `username` and checks if the
   string `@` followed by that username apppears in the Tweet contents
@@ -69,6 +68,20 @@ initializes that field. In it, write the following methods:
 - `firstMention` which takes no arguments and returns a `String` containing the
   substring between the _first_ appearance of the `@` character in the
   `contents` and the first space character after that.
+
+Also in `Drill3.java`, write a class called `ReplyTweet` that has three fields:
+one called `replyTo` of type `TextTweet`, one called `contents` of type
+`String`, and one called `likes` of type `int`. In it, write the following
+methods:
+
+- `morePopularReply` which takes no arguments and returns true if this
+  ReplyTweet has more likes than the `TextTweet` it is replying to
+- `allLikes` which takes no arguments and returns the sum of the likes on this
+  ReplyTweet and on the TextTweet it is replying to
+- `hasMention` which takes a `String` called `username` and checks if the
+  string `@` followed by that username apppears in this ReplyTweet's contents
+  **or** in the TextTweet that is being replied to
+
 
 ## Open-Ended 1 (manual)
 
@@ -80,7 +93,7 @@ type.
 have different types.
 
 For each, write a small Java program that demonstrates whether it is true or
-false. Put them in the files `Open1.java` and `Open2.java`.
+false. Put them in the files `Open1-a.java` and `Open1-b.java`.
 
 To show that a statement is true, write a Java program that matches the
 statement and doesn't produce an error when run.
@@ -91,5 +104,21 @@ cannot do what the property says.
 
 Include both the program and a screenshot of running the program without error
 as your submission; the template has space for both of these.
+
+## Open-Ended 2 (manual)
+
+Create a class named `R` that has a field of type `String` and a field of type
+`R`. Give it a default constructor that initializes this field. Put the class
+in a file called `Open2.java`. Add an `ExamplesR` class to this file, and
+answer the following questions in comments in that file:
+
+1. Construct an example `R` object. Were you able to? What was difficult about
+it?
+
+2. On Twitter, it's possible to reply to a reply to a Tweet (that's not a typo,
+it's a reply to a reply). This is true of many systems, like email, Facebook
+comments, Piazza followups, and so on. With the class structure in Drill3 with
+ReplyTweet and TextTweet, could you construct an example of a reply to a reply
+to a Tweet? Why or why not?
 
 
