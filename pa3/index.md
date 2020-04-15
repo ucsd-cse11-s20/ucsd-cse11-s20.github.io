@@ -72,6 +72,9 @@ initializes those fields. In it, write the following methods:
   after the `@`, or if there's no `@`, the empty string `""` should be
   returned.
 
+<div class='sidenote'>
+Twitter has <a href="https://help.twitter.com/en/using-twitter/mentions-and-replies">some documentation</a> on replying to Tweets.
+</div>
 Also in `Drill3.java`, write a class called `ReplyTweet` that has three fields:
 one called `replyTo` of type `TextTweet`, one called `contents` of type
 `String`, and one called `likes` of type `int`. In it, write the following
@@ -82,8 +85,8 @@ methods:
 - `allLikes` which takes no arguments and returns the sum of the likes on this
   ReplyTweet and on the TextTweet it is replying to
 - `hasMention` which takes a `String` called `username` and checks if the
-  string `@` followed by that username apppears in this ReplyTweet's contents
-  **or** in the TextTweet that is being replied to
+  string `@` followed by that username apppears in this `ReplyTweet`'s contents
+  **or** in the `TextTweet` that is being replied to
 
 
 ## Open-Ended 1 (manual)
@@ -94,12 +97,16 @@ Consider the following statements about Java programs:
 type.
 2. In Java, one class can define two fields with the same name as long as they
 have different types.
+3. In Java, two different methods in the same class can have the same parameter
+name, and they don't interfere with one another.
 
 For each, write a small Java program that demonstrates whether it is true or
 false. Put them in the files `Open1-a.java` and `Open1-b.java`.
 
 To show that a statement is true, write a Java program that matches the
-statement and doesn't produce an error when run.
+statement, doesn't produce an error when run, and produces some meaningful
+output when `./run`. This means you may want to include an `Examples` class
+with some instances of the classes you create to demonstrate this.
 
 To show that a statement is false, write a Java program that matches the
 statement and produces an error when run, demonstrating that Java programs
@@ -120,7 +127,12 @@ it?
 
 2. On Twitter, it's possible to reply to a reply to a Tweet (that's not a typo,
 it's a reply to a reply). This is true of many systems, like email, Facebook
-comments, Piazza followups, and so on. With the class structure in Drill3 with
-ReplyTweet and TextTweet, could you construct an example of a reply to a reply
-to a Tweet? Why or why not?
+comments, Piazza followups, and so on. With the class structure in `Drill3`
+with `ReplyTweet` and `TextTweet` (that is, _without_ changing the fields as
+described above), could you construct an example of a reply to a reply to a
+Tweet? Why or why not?
+
+
+## Submission
+
 
