@@ -93,15 +93,16 @@ methods:
 
 Consider the following statements about Java programs:
 
-1. In Java, two different classes can define a field with the same name and
+- **Statement A**: In Java, two different classes can define a field with the same name and
 type.
-2. In Java, one class can define two fields with the same name as long as they
+- **Statement B**: In Java, one class can define two fields with the same name as long as they
 have different types.
-3. In Java, two different methods in the same class can have the same parameter
-name, and they don't interfere with one another.
+- **Statement C**: In Java, two different methods in the same class can have the same parameter
+name, and arguments passed to one of those methods don't affect the parameter in the other.
 
 For each, write a small Java program that demonstrates whether it is true or
-false. Put them in the files `Open1-a.java` and `Open1-b.java`.
+false. Put them in the files `Open1-a.java`, `Open1-b.java`, and
+`Open1-c.java`.
 
 To show that a statement is true, write a Java program that matches the
 statement, doesn't produce an error when run, and produces some meaningful
