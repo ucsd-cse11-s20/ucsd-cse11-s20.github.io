@@ -6,10 +6,6 @@ doodle: "/doodle.png"
 
 # Programming Assignment 3 – Class Practice
 
-<p style="border: 2px dotted red; padding: 1em; background-color: #fce803">
-This is a draft, this notice will be released when the PA is finalized.
-</p>
-
 This programming assignment will help you practice writing classes.
 
 You will upload _several_ Java files for this assignment, detailed below.
@@ -20,9 +16,6 @@ sharing code. In your submission, give credit to all students and course staff
 who helped you with this assignment by noting their name and how you used their
 ideas or work. Note that using someone's work without giving credit to them is
 a violation of academic integrity.
-
-This policy has been the same for PA1-PA3. Note that this policy will likely
-**change** for PA4.
 
 ## Drill 1 (auto)
 
