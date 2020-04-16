@@ -99,8 +99,9 @@ expected values.
   greater than 0, and `"solid"` if the number is less than 0.
 - `maxDifference` which takes three `int`s and returns the largest absolute
   difference between any two of them. For example, `maxDifference` applied to
-  `1`, `-1`, and `5` should return `6` because the difference between `-1` and
-  `5` is 6.
+  `1`, `-1`, and `5` should return `6` because the difference between -1 and
+  5 is 6 which is greater than 2 or 4 (the differences between -1 and 1, and
+  between 1 and 5).
 - `ringArea`, which takes two `double`s representing the radius of an inner
   circle and an outer circle, and returns the area of the ring between them.
   Assume both inputs are positive and that the first number is smaller than the
