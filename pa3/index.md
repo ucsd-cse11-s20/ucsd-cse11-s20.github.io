@@ -121,7 +121,8 @@ expected values.
   href="https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/Math.html#method.summary">Java
   documentation</a> lists lots of helpful methods in the <code>Math</code> class!</div>
 - `ringArea`, which takes two `double`s representing the radius of an inner
-  circle and an outer circle, and returns the area of the ring between them.
+  circle and an outer circle, and returns the area of the ring between them as
+  a `double`.
   Assume both inputs are positive and that the first number is smaller than the
   second. Recall that the area of a circle is πr<sup>2</sup>. You can use
   `Math.PI`, a field conveniently defined for us by Java, as a constant for the
