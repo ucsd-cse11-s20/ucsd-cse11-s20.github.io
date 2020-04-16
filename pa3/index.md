@@ -88,6 +88,23 @@ methods:
   string `@` followed by that username apppears in this `ReplyTweet`'s contents
   **or** in the `TextTweet` that is being replied to
 
+## Drill 4 (auto)
+
+In a file called `Drill4.java`, write a class `Drill4` with the following
+methods. For each, write at least three interesting tests, and include the
+expected values.
+
+- `phaseOfWater` which takes an `int` and returns `"vapor"` if the number is
+  greater than or equal to 100, `"liquid"` if the number is less than 100 and
+  greater than 0, and `"solid"` if the number is less than 0.
+- `maxDifference` which takes three `int`s and returns the largest absolute
+  difference between any two of them. For example, `maxDifference` applied to
+  `1`, `-1`, and `5` should return `6` because the difference between `-1` and
+  `5` is 6.
+- `ringArea`, which takes two `double`s representing the radius of an inner
+  circle and an outer circle, and returns the area of the ring between them.
+  Assume both inputs are positive and that the first number is smaller than the
+  second.
 
 ## Open-Ended 1 (manual)
 
