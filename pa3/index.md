@@ -158,12 +158,12 @@ as your submission; the template has space for both of these.
 ## Open-Ended 2 (manual)
 
 Create a class named `R` that has a field of type `String` and a field of type
-`R`. Give it a default constructor that initializes this field. Put the class
+`R`. Give it a default constructor that initializes both fields. Put the class
 in a file called `Open2.java`. Add an `ExamplesR` class to this file, and
-answer the following questions in comments in that file:
+answer the following questions in that file:
 
-1. Construct an example `R` object. Were you able to? What was difficult about
-it?
+1. Construct an example `R` object. Were you able to? Explain your example if
+you were able to, and explain why you think it's not possible if you weren't.
 
 2. On Twitter, it's possible to reply to a reply to a Tweet (that's not a typo,
 it's a reply to a reply). This is true of many systems, like email, Facebook
