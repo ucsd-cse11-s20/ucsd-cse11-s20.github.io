@@ -4,9 +4,11 @@ title: "UCSD CSE11 S20 – PA3"
 doodle: "/doodle.png"
 ---
 
-# Programming Assignment 3 – Class Practice
+# Programming Assignment 3 – Classes and Conditionals Practice
 
-This programming assignment will help you practice writing classes.
+This programming assignment will help you practice writing classes and
+conditionals. You'll also get a chance to do some open-ended exploration of
+Java features.
 
 You will upload _several_ Java files for this assignment, detailed below.
 
@@ -183,7 +185,4 @@ tests we wrote. The parts marked `(manual)` will be graded by the course staff
 after the due date. In addition, we may give you feedback on any part of the
 code, including automatically graded parts, that we want you to respond to
 after grading.
-
-
-
 
