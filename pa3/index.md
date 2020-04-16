@@ -14,6 +14,16 @@ This programming assignment will help you practice writing classes.
 
 You will upload _several_ Java files for this assignment, detailed below.
 
+Different assignments in this course have different collaboration policies. On
+this assignment, you can collaborate with anyone in the course, including
+sharing code. In your submission, give credit to all students and course staff
+who helped you with this assignment by noting their name and how you used their
+ideas or work. Note that using someone's work without giving credit to them is
+a violation of academic integrity.
+
+This policy has been the same for PA1-PA3. Note that this policy will likely
+**change** for PA4.
+
 ## Drill 1 (auto)
 
 Write three classes as described below. They do not need to have any methods or
@@ -153,5 +163,23 @@ Tweet? Why or why not?
 
 
 ## Submission
+
+You will submit _all_ of your files to the `pa3` assignment on Gradescope:
+
+- On the Gradescope upload screen, you can keep clicking ``Browse Files'' to
+  select more than one file for your upload; you can select them one at a time
+  or use your operating system's multi-select (Shift-Click usually works) to
+  select them all and drag them onto the upload area, or other options that you
+  find that work.
+- You can also make a zip archive of all of your files and upload them all at
+  once if you prefer.
+
+The parts marked `(auto)` will be graded automatically in Gradescope based on
+tests we wrote. The parts marked `(manual)` will be graded by the course staff
+after the due date. In addition, we may give you feedback on any part of the
+code, including automatically graded parts, that we want you to respond to
+after grading.
+
+
 
 
