@@ -71,6 +71,7 @@ fields: one field called `contents` of type `String`, and one field called
 `likes` of type `int`. Give it a default constructor of two arguments that
 initializes those fields. In it, write the following methods:
 
+<div class='sidenote'>Remember that the <a href="https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/String.html#method.summary">Java documentation</a> lists lots of helpful <code>String</code> methods!</div>
 - `hasMention` which takes a `String` called `username` and checks if the
   string `@` followed by that username apppears in the Tweet contents,
   returning `true` if it doesn and `false` otherwise.
@@ -83,7 +84,11 @@ initializes those fields. In it, write the following methods:
   returned.
 
 <div class='sidenote'>
-Twitter has <a href="https://help.twitter.com/en/using-twitter/mentions-and-replies">some documentation</a> on replying to Tweets.
+Twitter has <a
+href="https://help.twitter.com/en/using-twitter/mentions-and-replies">some
+documentation</a> on replying to Tweets that can help explain the context here.
+There are many systems, like email, Piazza, Facebook, and so on that also have
+replies as a key feature we might want to model.
 </div>
 Also in `Drill3.java`, write a class called `ReplyTweet` that has three fields:
 one called `replyTo` of type `TextTweet`, one called `contents` of type
@@ -112,10 +117,15 @@ expected values.
   `1`, `-1`, and `5` should return `6` because the difference between -1 and
   5 is 6 which is greater than 2 or 4 (the differences between -1 and 1, and
   between 1 and 5).
+  <div class='sidenote'>Remember that the <a
+  href="https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/Math.html#method.summary">Java
+  documentation</a> lists lots of helpful methods in the <code>Math</code> class!</div>
 - `ringArea`, which takes two `double`s representing the radius of an inner
   circle and an outer circle, and returns the area of the ring between them.
   Assume both inputs are positive and that the first number is smaller than the
-  second.
+  second. Recall that the area of a circle is πr<sup>2</sup>. You can use
+  `Math.PI`, a field conveniently defined for us by Java, as a constant for the
+  value of π.
 
 ## Open-Ended 1 (manual)
 
