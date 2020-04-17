@@ -19,6 +19,8 @@ who helped you with this assignment by noting their name and how you used their
 ideas or work. Note that using someone's work without giving credit to them is
 a violation of academic integrity.
 
+We've added a file called `CREDITS.txt` for you to write these credits into.
+
 ## Drill 1 (auto)
 
 Write three classes as described below. They do not need to have any methods or
