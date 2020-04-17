@@ -104,8 +104,9 @@ methods:
   string `@` followed by that username apppears in this `ReplyTweet`'s contents
   **or** in the `TextTweet` that is being replied to.
 
-Add a class to this file called `Drill3` that has any tests or examples you
-used to help verify that your methods worked as you expected.
+We highly recommend adding a class to this file called `Drill3` that has any
+tests or examples you used to help verify that your methods worked as you
+expected.
 
 ## Drill 4 (auto)
 
