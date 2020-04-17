@@ -10,7 +10,10 @@ This programming assignment will help you practice writing classes and
 conditionals. You'll also get a chance to do some open-ended exploration of
 Java features.
 
-You will upload _several_ Java files for this assignment, detailed below.
+You will upload _several_ Java files for this assignment, detailed below. The
+starter code is available here:
+
+[https://github.com/ucsd-cse11-s20/pa3](https://github.com/ucsd-cse11-s20/pa3)
 
 Different assignments in this course have different collaboration policies. On
 this assignment, you can collaborate with anyone in the course, including
