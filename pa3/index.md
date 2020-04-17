@@ -177,7 +177,7 @@ Tweet? Why or why not?
 
 You will submit _all_ of your files to the `pa3` assignment on Gradescope:
 
-- On the Gradescope upload screen, you can keep clicking ``Browse Files'' to
+- On the Gradescope upload screen, you can keep clicking “Browse Files” to
   select more than one file for your upload; you can select them one at a time
   or use your operating system's multi-select (Shift-Click usually works) to
   select them all and drag them onto the upload area, or other options that you
