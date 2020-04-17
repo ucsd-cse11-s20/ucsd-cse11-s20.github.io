@@ -92,7 +92,8 @@ replies as a key feature we might want to model.
 </div>
 Also in `Drill3.java`, write a class called `ReplyTweet` that has three fields:
 one called `replyTo` of type `TextTweet`, one called `contents` of type
-`String`, and one called `likes` of type `int`. In it, write the following
+`String`, and one called `likes` of type `int`. Give it a default constructor
+that initializes these fields. In it, write the following
 methods:
 
 - `morePopularReply` which takes no arguments and returns true if this
