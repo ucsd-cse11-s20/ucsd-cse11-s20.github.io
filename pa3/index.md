@@ -111,7 +111,7 @@ expected values.
 
 - `phaseOfWater` which takes an `int` and returns `"vapor"` if the number is
   greater than or equal to 100, `"liquid"` if the number is less than 100 and
-  greater than 0, and `"solid"` if the number is less than 0.
+  greater than 0, and `"solid"` if the number is less than or equal to 0.
 - `maxDifference` which takes three `int`s and returns the largest absolute
   difference between any two of them. For example, `maxDifference` applied to
   `1`, `-1`, and `5` should return `6` because the difference between -1 and
@@ -139,9 +139,12 @@ have different types.
 - **Statement C**: In Java, two different methods in the same class can have the same parameter
 name, and arguments passed to one of those methods don't affect the parameter in the other.
 
-For each, write a small Java program that demonstrates whether it is true or
-false. Put them in the files `Open1-a.java`, `Open1-b.java`, and
-`Open1-c.java`.
+<div class='sidenote'>We changed the name of these files after the initial
+release to make it easier for the filename to match a class name you might
+choose. Don't use the hyphenated names that were here originally (and if you
+don't know what that means, you probably can ignore this).</div> For each,
+write a small Java program that demonstrates whether it is true or false. Put
+them in the files `Open1A.java`, `Open1B.java`, and `Open1C.java`.
 
 To show that a statement is true, write a Java program that matches the
 statement, doesn't produce an error when run, and produces some meaningful
@@ -157,9 +160,12 @@ as your submission; the template has space for both of these.
 
 ## Open-Ended 2 (manual)
 
+<div class='sidenote'>We changed the name of this file from
+<code>Open2.java</code> to <code>ExamplesR.java</code> to make it easier to
+have the class name match the file name.</div>
 Create a class named `R` that has a field of type `String` and a field of type
 `R`. Give it a default constructor that initializes both fields. Put the class
-in a file called `Open2.java`. Add an `ExamplesR` class to this file, and
+in a file called `ExamplesR.java`. Add an `ExamplesR` class to this file, and
 answer the following questions in that file:
 
 1. Construct an example `R` object. Were you able to? Explain your example if
