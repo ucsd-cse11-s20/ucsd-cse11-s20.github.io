@@ -102,7 +102,10 @@ methods:
   ReplyTweet and on the TextTweet it is replying to
 - `hasMention` which takes a `String` called `username` and checks if the
   string `@` followed by that username apppears in this `ReplyTweet`'s contents
-  **or** in the `TextTweet` that is being replied to
+  **or** in the `TextTweet` that is being replied to.
+
+Add a class to this file called `Drill3` that has any tests or examples you
+used to help verify that your methods worked as you expected.
 
 ## Drill 4 (auto)
 
