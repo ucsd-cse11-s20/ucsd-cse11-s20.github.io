@@ -74,9 +74,9 @@ initializes those fields. In it, write the following methods:
 <div class='sidenote'>Remember that the <a href="https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/String.html#method.summary">Java documentation</a> lists lots of helpful <code>String</code> methods!</div>
 - `hasMention` which takes a `String` called `username` and checks if the
   string `@` followed by that username apppears in the Tweet contents,
-  returning `true` if it doesn and `false` otherwise.
-- `hasLike` which takes no arguments and returns `true` if the tweet has zero
-  likes, false otherwise.
+  returning `true` if it does and `false` otherwise.
+- `hasLike` which takes no arguments and returns `true` if the tweet one or
+  more likes, `false` otherwise.
 - `firstMention` which takes no arguments and returns a `String` containing the
   substring between the _first_ appearance of the `@` character in the
   `contents` and the first space character after that. If there is no space
