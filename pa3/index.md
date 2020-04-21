@@ -26,16 +26,14 @@ We've added a file called `CREDITS.txt` for you to write these credits into.
 
 ## FAQ
 1. How do we test our methods in PA3? Do we need to use the tester package provide?
-
-You can test them in the same way as we did in class and previous two PAs. You can use the tester package if you want, but we're not grading for it. PA4 we will explicitly require it in some cases to make sure everyone gets practice with it. [Piazza @269]
+A: You can test them in the same way as we did in class and previous two PAs. You can use the tester package if you want, but we're not grading for it. PA4 we will explicitly require it in some cases to make sure everyone gets practice with it. [Piazza @269]
 
 
 2. For hasMention() method in class TextTweet, I think I correctly searched for “@username”, but why did some tests on my Gradescope submission fail?  
-There are some interesting cases for this method. For example, to check if we have the username “dummy” in "@dummy1 @dummy2”, hasMention() should return false in this case because username dummy1 and dummy2 is not the same as dummy, while “hello @dummy world” and “CSE 11 is a cool class @dummy” should return true. 
+A: There are some interesting cases for this method. For example, to check if we have the username “dummy” in "@dummy1 @dummy2”, hasMention() should return false in this case because username dummy1 and dummy2 is not the same as dummy, while “hello @dummy world” and “CSE 11 is a cool class @dummy” should return true. 
 
 3. For firstMention() method in class TextTweet, do we need to include the "@" (at character) or " " (space character) in the resultant substring?
-
-The idea of this method is to return just the username of the first mention. This means the "@" and " " are to be omitted. 
+A: The idea of this method is to return just the username of the first mention. This means the "@" and " " are to be omitted. 
 
 ## Drill 1 (auto)
 
