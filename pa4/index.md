@@ -87,62 +87,6 @@ Since there are 6 total method implementations, you should have at least 12
 tests. Tests are graded manually, your implementation is graded
 automatically.
 
-## Regions
-
-<div class='sidenote'>Code from class is <a href="https://github.com/ucsd-cse11-s20/07-Interfaces">on Github</a>.</div>
-
-Copy the code from class for `CircRegion`, `RectRegion`, and `UnionRegion`
-that implement `Region` into a file called `Regions.java`.
-
-Create the following shapes:
-
-- In field called `example1`: A union of a rectangle from 4, 4 to 10, 5 with
-a circle centered at 10, 5 with radius 3
-- In a field called `example2`: A shape that looks like a three-circle <a
-href="">Venn Diagram (fill link)</a>
-
-Add this class to the code at the top level:
-
-```
-class Box {
-  int top, bottom, left, right;
-  Box(int top, int bottom, int left, int right) {
-    this.top = top;
-    this.bottom = bottom;
-    this.left = left;
-    this.right = right;
-  }
-}
-```
-
-<div class='sidenote'>There is a good definition of <a href="https://en.wikipedia.org/wiki/Minimum_bounding_box">minimum bounding box</a> on Wikipedia.</div>
-
-Add a method to the interface and all the classes called `boundingBox()`
-that returns the _minimum bounding box_ around the shapes in the region,
-represented as a `Box` object.
-
-As an example, the minimum bounding box for `example1` above is a box with
-top 8, bottom 2, left 4, right 13. (**HINT** draw out some examples on paper
-and make example data)
-
-Add enough tests for `boundingBox()` that you're confident in its behavior.
-Your tests for this will not be graded. Your implementation will be graded
-automatically.
-
-### Exploration
-
-We implemented bounding boxes in this PA, and containment was implemented in lecture. We focused on circles, rectangles, and unions.
-
-Consider adding a method called `area` to the `Region` interface that returns
-the area within regions. What's an example of a union region where
-calculating the area would be significantly more complex than just adding the
-areas of the components?
-
-At the end of the `ExamplesRegion` class in a place marked clearly with a
-comment that says `// Exploration`, write your answer as a `Region` field.
-Add a comment directly after the creation of the field explaining why it
-would be more challenging.
-
 ## Numbers
 
 This code will go in the file `ExamplesNumber.java`, any tests in a class called
