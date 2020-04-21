@@ -171,8 +171,8 @@ To show that a statement is false, write a Java program that matches the
 statement and produces an error when run, demonstrating that Java programs
 cannot do what the property says.
 
-Include both the program and a screenshot of running the program without error
-as your submission; the template has space for both of these.
+Include both the program and the output of running the program without error
+as your submission; you can upload screenshots as images clearly named with `Open1`, `Open2`, etc in the title, or copy-paste the text output into a comment in your code.
 
 ## Open-Ended 2 (manual)
 
