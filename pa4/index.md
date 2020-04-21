@@ -31,14 +31,14 @@ methods:
 Then, write two classes:
 
 - `TextTweet`, implements `Tweet` and has three fields:
-  - `contents`, a string
+  - `contents`, a `String`
   - `likes`, an int
-  - `author`, a string
+  - `author`, a `String`
 
   This class should implement the methods as follows:
   - `isStartOfThreadBy` should return `true` when the given author is the
   same as the `author` of this `TextTweet`, `false` otherwise.
-  - `totalLikes` return the number of likes on this `TextTweet` object
+  - `totalLikes` should return the number of likes on this `TextTweet` object
   - `unrollThread` should return a string in the following format:
 
     ```
@@ -49,18 +49,19 @@ Then, write two classes:
 
     where `<author>` is replaced by the author's name, `<n>` is replaced by
     the number of likes on the `TextTweet`, and `<content>` is replaced by
-    the contents of the Tweet.
+    the contents of the Tweet. The string should end in a new line (`"\n"` character).
 - `ReplyTweet`, which has four fields:
-  - `contents`, a string
+  - `contents`, a `String`
   - `likes`, an int
-  - `author`, a string
+  - `author`, a `String`
   - `replyTo`, a `Tweet`
+
   This class should implement the methods as follows:
   - `isStartOfThreadBy` should return `true` when the given author is the
   same as the `author` of this `ReplyTweet` **and** the `replyTo` tweet is
   also the start of a thread by the same author.
-  - `totalLikes` return the total number of likes on this `ReplyTweet` object
-  **plus** the total likes on its `replyTo` Tweet.
+  - `totalLikes` should return the total number of likes on this `ReplyTweet` object
+  **plus** the total likes of its `replyTo` Tweet. For example, a thread of tweets that is 4 replies long should sum the likes on all 4 of those tweets.
   - `unrollThread` should return a string in the following format:
 
     ```
@@ -72,12 +73,14 @@ Then, write two classes:
 
     where the bottom three parts are the same format as in `TextTweet`, and
     the first part is the unrolled version of the `replyTo` `Tweet`.
+    Like for `TextTweet`, this should end in a new line character.
 
 You can, but don't have to, use an abstract class to avoid duplicated work as
-you see fit.
+you see fit. Add constructors as appropriate to initialize the fields on
+objects of these classes (whether or not you use an abstract class).
 
 For each method, write at least two tests for it in a class called `Tweets`
-using the `Tester` library. A “test” is a use of `checkExpect` that calls one
+using the `Tester` library. A “test” is a use of `checkExpect` that 
 checks the results of the method call against an expected value.
 
 Since there are 6 total method implementations, you should have at least 12
@@ -85,6 +88,8 @@ tests. Tests are graded manually, your implementation is graded
 automatically.
 
 ## Regions
+
+<div class='sidenote'>Code from class is <a href="https://github.com/ucsd-cse11-s20/07-Interfaces">on Github</a>.</div>
 
 Copy the code from class for `CircRegion`, `RectRegion`, and `UnionRegion`
 that implement `Region` into a file called `Regions.java`.
