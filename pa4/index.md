@@ -192,7 +192,5 @@ $$27/6$$, are not in their simplest form. Make it so that the constructor for
 `Fraction` always creates a fraction object with numerator and denominator in
 their most reduced form.
 
-**Challenge** (not required for credit): Implement the `area` method as described above.
-
 **Challenge** (not required for credit): Create a `ReplyTweet` that is a reply
 to itself. Do you think this is possible on Twitter?
