@@ -194,11 +194,10 @@ Then you will submit _all_ of your files to the `pa4` assignment on Gradescope:
 - You can also make a zip archive of all of your files and upload them all at
   once if you prefer.
 
-The parts marked `(auto)` will be graded automatically in Gradescope based on
-tests we wrote. The parts marked `(manual)` will be graded by the course staff
-after the due date. In addition, we may give you feedback on any part of the
-code, including automatically graded parts, that we want you to respond to
-after grading.
+We will automatically grade the correctness of the methods and classes you
+write. Tests and exploration sections will be graded manually.  In addition, we
+may give you feedback on any part of the code, including automatically graded
+parts, that we want you to respond to after grading.
 
 ## Extra Challenges (not for credit)
 
