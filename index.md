@@ -217,6 +217,17 @@ demonstrating its behavior and your understanding. We'll give some
 opportunities for practice with this process, and much more detailed
 instructions with the exam release.
 
+The first time will be in **week 6**, with Thu/Fri/Sat as the days to complete
+it (right after PA5, May 6-8). The second time will be in **week 9** with
+Thu/Fri/Sat as the days to complete it (May 28-30). The last time will be for a
+few days leading up to our final exam date (June 7-9).
+
+We **do not** expect that the programming work and recording will take three
+days of constant work. The tasks will be significantly shorter than the PAs, so
+this should only take a few hours. We give the broad range to give you the best
+chance to schedule some quiet, focused time to do the work and record the
+presentation.
+
 It's worth explaining why we are using this mechanism. There are at least two
 reasons:
 

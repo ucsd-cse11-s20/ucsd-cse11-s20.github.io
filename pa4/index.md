@@ -21,6 +21,13 @@ You will also complete a <a
 href="https://docs.google.com/forms/d/e/1FAIpQLSduhjWQ36oxoiZReUZfA8cQ2PngQhxZh3L6TsiobVA4Ho5oHQ/viewform">survey</a>
 on your experiences in the class the past two weeks.
 
+Different assignments in this course have different collaboration policies. On
+this assignment, you **cannot** share code publicly on Piazza or with any other
+students in the course. If you need to share code, ask in a private Piazza post
+or in 1-on-1 hours. Still _do_ ask any public code questions about lecture
+code, quizzes that are past, or other conceptual questions, just no code from
+this PA.
+
 ## Tweets
 
 <div class='sidenote'>A Twitter-specific pattern is writing a <a
