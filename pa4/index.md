@@ -15,6 +15,10 @@ classes.
 
 You will upload _several_ Java files for this assignment, detailed below.
 
+You will also complete a <a
+href="https://docs.google.com/forms/d/e/1FAIpQLSduhjWQ36oxoiZReUZfA8cQ2PngQhxZh3L6TsiobVA4Ho5oHQ/viewform">survey</a>
+on your experiences in the class the past two weeks.
+
 ## Tweets
 
 <div class='sidenote'>A Twitter-specific pattern is writing a <a
@@ -169,7 +173,9 @@ comment that says `// Exploration`, write code to perform four calculations:
 
 ## Submission
 
-You will submit _all_ of your files to the `pa4` assignment on Gradescope:
+Complete the <a href="https://docs.google.com/forms/d/e/1FAIpQLSduhjWQ36oxoiZReUZfA8cQ2PngQhxZh3L6TsiobVA4Ho5oHQ/viewform">survey</a>!
+
+Then you will submit _all_ of your files to the `pa4` assignment on Gradescope:
 
 - On the Gradescope upload screen, you can keep clicking “Browse Files” to
   select more than one file for your upload; you can select them one at a time
