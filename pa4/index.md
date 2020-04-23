@@ -11,7 +11,9 @@ This is a draft, this notice will be removed when the PA is finalized.
 </p>
 
 This programming assignment will help you practice writing interfaces and
-classes.
+classes. You can get the starter repository here:
+
+[https://github.com/ucsd-cse11-s20/pa4-starter](https://github.com/ucsd-cse11-s20/pa4-starter)
 
 You will upload _several_ Java files for this assignment, detailed below.
 
