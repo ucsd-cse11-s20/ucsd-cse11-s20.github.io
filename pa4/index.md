@@ -6,10 +6,6 @@ doodle: "/doodle.png"
 
 # Programming Assignment 4 – Interfaces
 
-<p style="border: 2px dotted red; padding: 1em;">
-This is a draft, this notice will be removed when the PA is finalized.
-</p>
-
 This programming assignment will help you practice writing interfaces and
 classes. You can get the starter repository here:
 
