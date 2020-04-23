@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "UCSD CSE11 S20 – PA3"
+title: "UCSD CSE11 S20 – PA4"
 doodle: "/doodle.png"
 ---
 
@@ -124,7 +124,7 @@ interface Number {
 ```
 
 (We could specify more methods, but for the purposes of this assignment,
-these four will be sufficient.)
+these six will be sufficient.)
 
 Your task is to create two classes that implement the interface above. One
 should be called `WholeNumber` and represent whole integers (including
@@ -176,7 +176,7 @@ comment that says `// Exploration`, write code to perform four calculations:
 1. The result of `0.1 + 0.2 + 0.3` using built-in `double` arithmetic in Java
 2. The result of `0.1 + (0.2 + 0.3)` using built-in `double` arithmetic in Java
 3. The result of (1) using your exact fractions, showing the result via `toString()`
-4. The result of (1) using your exact fractions, showing the result via `toString()`
+4. The result of (2) using your exact fractions, showing the result via `toString()`
 
 
 
