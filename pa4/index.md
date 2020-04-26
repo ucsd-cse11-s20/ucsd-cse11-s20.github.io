@@ -59,7 +59,7 @@ Then, write two classes:
     where `<author>` is replaced by the author's name, `<n>` is replaced by
     the number of likes on the `TextTweet`, and `<content>` is replaced by
     the contents of the Tweet. The string should end in a new line (`"\n"` character).
-- `ReplyTweet`, which has four fields:
+- `ReplyTweet`, which **should implement `Tweet`** and has four fields:
   - `contents`, a `String`
   - `likes`, an int
   - `author`, a `String`
