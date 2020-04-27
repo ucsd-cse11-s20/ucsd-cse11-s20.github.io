@@ -26,8 +26,7 @@ this PA.
 
 ## FAQ
 1. In class ReplyTweet, should be field replyTo be a TextTweet object instead of a Tweet?
-
-A: replyTo field should be of type Tweet, because you can reply to any Tweet. See the sidenote in the writeup, "A Twitter-specific pattern is writing a “thread” by replying to one's own Tweets repeatedly." Having replyTo as a Tweet object helps us achieve the "thread" function. 
+- replyTo field should be of type Tweet, because you can reply to any Tweet. See the sidenote in the writeup, "A Twitter-specific pattern is writing a “thread” by replying to one's own Tweets repeatedly." Having replyTo as a Tweet object helps us achieve the "thread" function. 
 
 2. If replyTo is a Tweet, how can I use the fields, like author, inside it?
 A: Let’s think about the examples in Lecture 7 — how do UnionRegion and IntersectRegion work if they don't know which specific type the two Region fields have? How did they avoid needing to see use the center field of CircRegion, or the upperLeft field of RectRegion?
