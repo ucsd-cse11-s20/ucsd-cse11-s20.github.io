@@ -29,17 +29,17 @@ this PA.
 - replyTo field should be of type Tweet, because you can reply to any Tweet. See the sidenote in the writeup, "A Twitter-specific pattern is writing a “thread” by replying to one's own Tweets repeatedly." Having replyTo as a Tweet object helps us achieve the "thread" function. 
 
 2. If replyTo is a Tweet, how can I use the fields, like author, inside it?
-A: Let’s think about the examples in Lecture 7 — how do UnionRegion and IntersectRegion work if they don't know which specific type the two Region fields have? How did they avoid needing to see use the center field of CircRegion, or the upperLeft field of RectRegion?
+- Let’s think about the examples in Lecture 7 — how do UnionRegion and IntersectRegion work if they don't know which specific type the two Region fields have? How did they avoid needing to see use the center field of CircRegion, or the upperLeft field of RectRegion?
 
 3. Should class ReplyTweet implement Tweet?
-A: Yes, and the writeup has been updated to explicitly say that.
+- Yes, and the writeup has been updated to explicitly say that.
 
 4. Why is the autograder producing this error “…” for me?
-A: As a general reminder, it would help us a lot if your provide your submission link when it's a Gradescope-related question (just copy the URL from the URL bar when looking at your submission and other students won't be able to see your code from a Gradescope link).
-In addition, you should have your own tests, and you should write your own tests and try things out to make sure you understand what your code does before submitting it. You can share your tests with us privately on Piazza and we can discuss what's happening in them as a way to debug as well.
+- As a general reminder, it would help us a lot if your provide your submission link when it's a Gradescope-related question (just copy the URL from the URL bar when looking at your submission and other students won't be able to see your code from a Gradescope link).
+- In addition, you should have your own tests, and you should write your own tests and try things out to make sure you understand what your code does before submitting it. You can share your tests with us privately on Piazza and we can discuss what's happening in them as a way to debug as well.
 
 5. My code does not run on Gradescope because it’s still WIP. How can I check that the part I finished is correct?
-A: For the methods you haven’t finished yet, you can put implementations for them that intentionally return the wrong answer, like an empty string or false, to make it so all the tests will run.
+- For the methods you haven’t finished yet, you can put implementations for them that intentionally return the wrong answer, like an empty string or false, to make it so all the tests will run.
 
 ## Tweets
 
