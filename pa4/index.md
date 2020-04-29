@@ -41,6 +41,12 @@ this PA.
 5. My code does not run on Gradescope because it’s still WIP. How can I check that the part I finished is correct?
 - For the methods you haven’t finished yet, you can put implementations for them that intentionally return the wrong answer, like an empty string or false, to make it so all the tests will run.
 
+6. VSCode is red underlining the import tester statement. Is this an error?
+- Before trying to assess the error, try compiling your code and running it. Sometimes VSCode will erroneously underline imports that actually do work. If the code does not compile, make sure that the file that is trying to import the tester is in the same folder as tester.jar. 
+
+7. For unrollThread methods in Tweets.java, I cannot pass the tests on Gradescope, but the expected result and my program result look exactly the same.
+- This is probably because of a missing or extra newline character or space character that is hard to spot with our eyes. The autograder has been updated to give a hint:"(Hint) If your result looks the same as the reference output but still gets an error, there may be extra space characters or newline characters in your result. You may try to print the length of your output String locally to see if it matches your expectation." 
+
 ## Tweets
 
 <div class='sidenote'>A Twitter-specific pattern is writing a <a
