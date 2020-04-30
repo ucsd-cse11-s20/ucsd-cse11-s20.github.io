@@ -16,6 +16,17 @@ values from arrays using loops.
 You'll also practice making a screencast in preparation for the take-home
 screencast exam.
 
+Different assignments in this course have different collaboration policies. On
+this assignment, you can collaborate with anyone in the course, including
+sharing code. In your submission, give credit to all students and course staff
+who helped you with this assignment by noting their name and how you used their
+ideas or work. Note that using someone's work without giving credit to them is
+a violation of academic integrity.
+
+The starter code is available at:
+
+[https://github.com/ucsd-cse11-s20/pa5-starter](https://github.com/ucsd-cse11-s20/pa5-starter)
+
 ## Array Methods
 
 In a file called `ArrayExamples.java`, write the following methods in a class
@@ -71,7 +82,7 @@ are no duplicate strings in `keys`.
 
 - In a file called `Longest.java`, write a class called `Longest`. It should
 have a main method which prints out the _longest_ string in the command line
-arguments. If no strings were given, it should print nothing. Example:
+arguments. If no arguments were given, it should print nothing. Example:
 
   ```
   $ javac Longest.java
@@ -110,7 +121,7 @@ arguments to `Double.parseDouble`. If the first argument is ...
   $ java Stats --max 9 1 4 0
   9.0
   $ java Stats --min 9 1 4 0
-  0
+  0.0
   $ java Stats --mix 3 4 5
   Bad option --mix
   ```
