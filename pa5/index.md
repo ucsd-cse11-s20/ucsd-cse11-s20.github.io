@@ -59,7 +59,7 @@ smallest integer in the array and the `b` is set to the largest. Assume the
 array has at least one element.
 
 <div class='sidenote'>Computer scientists have a fancy name for alphabetical:
-<b>lexicographic</b>. You will need the <a href="https://docs.oracle.com/en/java/javase/13/docs/api/java.base/java/lang/String.html#compareTo(java.lang.String)">compareTo method on Strings</a> helpful here. Try it out on a few examples if you're not sure what it will do!</div>
+<b>lexicographic</b>. You will need the <a href="https://docs.oracle.com/en/java/javase/13/docs/api/java.base/java/lang/String.html#compareTo(java.lang.String)">compareTo method on Strings</a> here. Try it out on a few examples if you're not sure what it will do!</div>
 - Write a method called `earliest` that takes an array of `String`s and
 returns the `String` that is the earliest alphabetically. You can assume that
 the array has at least one element.
