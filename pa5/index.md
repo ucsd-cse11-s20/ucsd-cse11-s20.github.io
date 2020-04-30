@@ -8,7 +8,7 @@ doodle: "/doodle.png"
 This is a draft, this notice will be removed when the PA is finalized.
 </p>
 
-# Programming Assignment 5 – Looping Over Arrays
+# Programming Assignment 5 – Arrays and Main
 
 In this assignment, you will get practice with writing methods that calculate
 values from arrays using loops.
@@ -124,7 +124,7 @@ of `Longest.java` AND your terminal output are shown in the video
 - Show running the two examples of `Longest` above, with their results
 clearly visible in the terminal
 
-We've made a short link demonstrating how to make a screencast with Zoom:
+We've made a short tutorial demonstrating how to make a screencast with Zoom:
 
 [Screencast Tutorial](https://drive.google.com/open?id=1KROMAQuTCk40zwrEFotlYSJJQdcG_GUU)
 
