@@ -18,9 +18,10 @@ screencast exam.
 
 ## Array Methods
 
-In a class called `ArrayExamples.java`, write the following methods. For
-each, write **three tests** (a test is a use of `checkExpect`) where each of
-the three has a different length of array used in the input.
+In a file called `ArrayExamples.java`, write the following methods in a class
+called `ArrayExamples`. For each, write **three tests** (a test is a use of
+`checkExpect`) where each of the three has a different length of array used
+in the input.
 
 - Write a method called `joinWith` that takes an array of `String` and a
 `String` separator, and returns a new `String` that contains the strings from
@@ -39,10 +40,11 @@ of &lt; and ≥ instead of &gt;</div>
 - Write a method called `allWithinRange` that takes an array of `double` and
 two other `double`s called `low` and `high`, and returns `true` if all of the
 numbers in the array are between `low` and `high` (inclusive). If the array
-is empty, produces `true`.
+is empty, this should produce `true`. You can assume that `low` ≤ `high`
 
 - Write a class called `Pair` with two `int` fields, `a` and `b`, and include
-a default constructor. Then write a method called `maxmin` that takes an
+a default constructor. (Add `Pair` at the top level, outside the
+`ArrayExamples` class). Then write a method called `maxmin` that takes an
 array of `int` and returns a `Pair` where the `a` field is set to the
 smallest integer in the array and the `b` is set to the largest. Assume the
 array has at least one element.
@@ -50,7 +52,8 @@ array has at least one element.
 <div class='sidenote'>Computer scientists have a fancy name for alphabetical:
 <b>lexicographic</b>. You will need the <a href="https://docs.oracle.com/en/java/javase/13/docs/api/java.base/java/lang/String.html#compareTo(java.lang.String)">compareTo method on Strings</a> helpful here. Try it out on a few examples if you're not sure what it will do!</div>
 - Write a method called `earliest` that takes an array of `String`s and
-returns the `String` that is the earliest alphabetically.
+returns the `String` that is the earliest alphabetically. You can assume that
+the array has at least one element.
 
 - Write a method called `lookup` that takes an array of `String` called
 `keys`, an array of `int` called `values`, and a `String` called `key` (three
@@ -68,7 +71,7 @@ are no duplicate strings in `keys`.
 
 - In a file called `Longest.java`, write a class called `Longest`. It should
 have a main method which prints out the _longest_ string in the command line
-arguments. Example:
+arguments. If no strings were given, it should print nothing. Example:
 
   ```
   $ javac Longest.java
@@ -76,6 +79,8 @@ arguments. Example:
   argument
   $ java Longest one two three four
   three
+  $ java Longest
+  $
   ```
 
 - In a file called `Stats.java`, write a class called `Stats`. It should have
@@ -89,6 +94,8 @@ arguments to `Double.parseDouble`. If the first argument is ...
   - `"--total"`, print the sum of the provided numbers
   - `"--max"`, print the maximum of the provided numbers
   - `"--min"`, print the minimum of the provided numbers
+  - any other string, print `"Bad option <arg>"` where you will replace
+  `"<arg>"` with the first argument
 
   Examples:
 
@@ -104,6 +111,8 @@ arguments to `Double.parseDouble`. If the first argument is ...
   9.0
   $ java Stats --min 9 1 4 0
   0
+  $ java Stats --mix 3 4 5
+  Bad option --mix
   ```
 
 
