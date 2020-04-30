@@ -4,10 +4,6 @@ title: "UCSD CSE11 S20 – PA5"
 doodle: "/doodle.png"
 ---
 
-<p style="border: 2px dotted red; padding: 1em;">
-This is a draft, this notice will be removed when the PA is finalized.
-</p>
-
 # Programming Assignment 5 – Arrays and Main
 
 In this assignment, you will get practice with writing methods that calculate
@@ -22,6 +18,8 @@ sharing code. In your submission, give credit to all students and course staff
 who helped you with this assignment by noting their name and how you used their
 ideas or work. Note that using someone's work without giving credit to them is
 a violation of academic integrity.
+
+We've added a `CREDITS.txt` to note others you worked with.
 
 The starter code is available at:
 
