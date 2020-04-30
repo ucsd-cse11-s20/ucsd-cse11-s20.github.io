@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "UCSD CSE11 S20 – PA5"
-doodle: "/doodle.png"
+doodle: "./doodle.jpeg"
 ---
 
 # Programming Assignment 5 – Arrays and Main
