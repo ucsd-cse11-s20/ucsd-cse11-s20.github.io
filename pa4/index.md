@@ -47,6 +47,16 @@ this PA.
 7. For unrollThread methods in Tweets.java, I cannot pass the tests on Gradescope, but the expected result and my program result look exactly the same.
 - This is probably because of a missing or extra newline character or space character that is hard to spot with our eyes. The autograder has been updated to give a hint:"(Hint) If your result looks the same as the reference output but still gets an error, there may be extra space characters or newline characters in your result. You may try to print the length of your output String locally to see if it matches your expectation." 
 
+8. I wrote test methods with the Tester, but ./run is telling me that no tests ran.
+- Tester methods have to start with "test" at the beginning! I think we didn't make a big deal of this in lecture and it's mentioned quickly in the reading, but they do have to start with that word, like
+boolean testAdd(Tester t) { .... }
+
+9. Am I required to write tests in the ExamplesNumber class?
+- We won't grade tests written there, but we encourage you to write them to gain confidence in your code!
+
+10. Should the unrollThread method of ReplyTweet start with just the contents of the replyTo tweet, or the entire unrolled tweet?
+- It should contain the entire unrolled tweet, not just the contents field.
+
 ## Tweets
 
 <div class='sidenote'>A Twitter-specific pattern is writing a <a
