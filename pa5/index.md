@@ -92,6 +92,8 @@ arguments. If no arguments were given, it should print nothing. Example:
   $
   ```
 
+  You can assume that there is not a tie for the longest string's length.
+
 - In a file called `Stats.java`, write a class called `Stats`. It should have
 a main method which has a different effect depending on the first command
 line argument. In all cases, it can assume that there will be at least _two_
