@@ -130,8 +130,7 @@ arguments to `Double.parseDouble`. If the first argument is ...
 ## Practice Screencast
 
 For the take-home exams, you'll be recording a screencast that demonstrates
-your programs (along with completing them without any assistance from the
-course staff). The last part of this PA has you practice with this.
+your programs. The last part of this PA has you practice with this.
 
 You will record a short video (no more than 2 minutes). Include:
 
