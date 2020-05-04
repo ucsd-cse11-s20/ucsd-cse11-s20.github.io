@@ -25,6 +25,11 @@ The starter code is available at:
 
 [https://github.com/ucsd-cse11-s20/pa5-starter](https://github.com/ucsd-cse11-s20/pa5-starter)
 
+Note that we also added some new methods after lecture Thursday, you may find
+some useful ideas here:
+
+[https://github.com/ucsd-cse11-s20/10-Variable-Update-Loops](https://github.com/ucsd-cse11-s20/10-Variable-Update-Loops)
+
 ## Array Methods
 
 In a file called `ArrayExamples.java`, write the following methods in a class
