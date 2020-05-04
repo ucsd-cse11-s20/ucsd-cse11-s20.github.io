@@ -51,12 +51,12 @@ two other `double`s called `low` and `high`, and returns `true` if all of the
 numbers in the array are between `low` and `high` (inclusive). If the array
 is empty, this should produce `true`. You can assume that `low` ≤ `high`
 
-- Write a class called `Pair` with two `int` fields, `a` and `b`, and include
-a default constructor. (Add `Pair` at the top level, outside the
-`ArrayExamples` class). Then write a method called `maxmin` that takes an
-array of `int` and returns a `Pair` where the `a` field is set to the
-smallest integer in the array and the `b` is set to the largest. Assume the
-array has at least one element.
+- Write a class called `Pair` with two `int` fields, `a` and `b`, and include a
+  default constructor. (Add `Pair` at the top level, outside the
+  `ArrayExamples` class). Then write a method (in `ArrayExamples`, not in
+  `Pair`) called `maxmin` that takes an array of `int` and returns a `Pair`
+  where the `a` field is set to the smallest integer in the array and the `b`
+  is set to the largest. Assume the array has at least one element.
 
 <div class='sidenote'>Computer scientists have a fancy name for alphabetical:
 <b>lexicographic</b>. You will need the <a href="https://docs.oracle.com/en/java/javase/13/docs/api/java.base/java/lang/String.html#compareTo(java.lang.String)">compareTo method on Strings</a> here. Try it out on a few examples if you're not sure what it will do!</div>
