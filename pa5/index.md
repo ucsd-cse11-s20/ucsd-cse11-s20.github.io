@@ -100,6 +100,9 @@ line argument. In all cases, it can assume that there will be at least _two_
 command-line arguments, and all the arguments after the first are appropriate
 arguments to `Double.parseDouble`. If the first argument is ...
 
+<div class="sidenote">When comparing Strings, the <code>==</code> operator can
+be unreliable. Instead use <code>.equals</code> or <code>.compareTo</code>,
+which are in the Java String documentation.</div>
   - `"--product"`, print the product of the provided numbers
   - `"--mean"`, print the average (mean) of the provided numbers
   - `"--total"`, print the sum of the provided numbers
