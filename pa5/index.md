@@ -30,6 +30,38 @@ some useful ideas here:
 
 [https://github.com/ucsd-cse11-s20/10-Variable-Update-Loops](https://github.com/ucsd-cse11-s20/10-Variable-Update-Loops)
 
+## FAQ
+1. In your `CREDITS.txt` file, give credit to all students and course staff who helped you with this assignment by noting their name and how you used their ideas or work.
+
+
+2. Can we use <some other library> in this PA instead of loops?
+- Piazza @475 "In general in this course I try to avoid saying you strictly can't use something in the programming assignments. That's a bit artificial. Rather, I try to design assignments where using the things we learned most recently would be the best and most natural choice for the implementation. That said, if you know something you want to try, that's fine. Just be warned that it might be more work to not use the stuff we just learned – it was definitely the case that there were submissions to PA4 that did much more complex things than necessary for Fraction and WholeNumber using features we didn't discuss in class." - Joe
+
+
+2. I wrote test methods with the Tester, but `./run` is telling me that no tests ran.
+- Tester methods have to start with “test” at the beginning! For example, `boolean testAdd(Tester t) { …. }`. In `ArrayExamples.java`, all tests should be in class `ArrayExamples`, not `Pair`.
+
+
+3. I failed some tests on Gradescope, but it is not showing me any error message, so I don’t know what is wrong. 
+- We did something slightly different with this autograder. For each method we wrote several tests but only publicly show you some of their results in detail. The goal is to give you a nudge to think more about detailed tests you could write for your own methods. So you can see where you failed and all you know (for now) is that you should try testing and understanding those methods more. 
+
+4. My `earliest` method's tests on Gradescope are not passing. 
+- Double check your understanding of `compareTo` method. Try using `compareTo` with longer strings and seeing the result. Does the method always return 0, -1, or 1?
+
+
+5. I am receiving an array index out of bounds error in `Longest.java`. 
+- Unlike some of the previous method, you can not make the assumption that string argument(s) will be given. Hence, args[0] will throw the index out of bounds error. What is a possible way to check if any arguments are given?
+
+
+6. Help! I did the conditional checking and `Longest.java` is still throwing index out of bounds!
+
+- Consider the following:
+`if (...){
+    // inside for loop
+}
+// after for loop`
+Recall that regardless if the if statement runs or not, the code beneath the if statement will run if not wrapped in an else statement. An else statement may be useful in avoiding the index out of bounds error.
+
 ## Array Methods
 
 In a file called `ArrayExamples.java`, write the following methods in a class
