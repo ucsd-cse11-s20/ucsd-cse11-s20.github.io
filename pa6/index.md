@@ -19,7 +19,7 @@ You will also submit a survey (required) about your experience in the course.
 Submission checklist:
   - `[ ]` Survey [(submit here)](https://docs.google.com/forms/d/e/1FAIpQLSeWEuBKICqefsps2E7qxognjn6No0UjaRFm1VefSYMbylCqcg/viewform)
   - `[ ]` PDF to Gradescope assignment `pa6-notes`
-  - `[ ]` Two code files for completed tasks to `pa6-code`
+  - `[ ]` Two code files for completed tasks to `pa6-code` (just two of four programs need to be completed)
 
 ## Task
 
@@ -31,20 +31,19 @@ Your task is to complete **two** of the following programs of your choice,
 and also complete a reflection while you are working.
 
 When you're ready to start programming, set a timer for 30 minutes – work on
-these tasks for that much time. Then, take a screenshot or copy/paste your
-code and the output of the most recent time you ran the program. It's totally
-fine if run is producing errors at this point, the idea is just to take notes
-on progress.
+these tasks for that much time. Then, take a screenshot or copy/paste (a)
+your code and (b) the output of the most recent time you ran the program.
+It's totally fine if running your code is producing errors at this point, the
+idea is just to take notes on progress.
 
 Put that output into the Google Doc at the 30 minute mark, and write down a
-few sentences about your thought process at this point – don't spend more
-than 5 minutes on the notes. Also note if you got distracted by another
-browser tab, your phone, etc during that 30 minutes. You don't have to tell
-us how, just say yes/no and how many minutes you think you were distracted
-for.
+few sentences about your thought process at this point. Also note if you got
+distracted by another browser tab, your phone, etc during that 30 minutes.
+You don't have to tell us how, just say yes/no and how many minutes you think
+you were distracted for.
 
 When you work again, set another 30 minute timer and work for that time, then
-repeat taking notes. Then do this one more time, for a total of 3 30minute
+repeat taking notes. Then do this one more time, for a total of three 30 minute
 sessions each followed by note-taking.
 
 If you don't finish the task, still stop after the three sessions and put the
@@ -72,10 +71,10 @@ that takes an array of `Pair` and returns an array of `int` that contains the
 least 4 `checkExpect` tests for it to cover interesting cases.
 
 - In a file called `LongStrings.java`, write a method called `longStrings`
-that takes an array of `String` and an integer `n` and produces an array of
-`String` that are just the strings in the array that have length `n` or
-greater. Write at least 4 `checkExpect` tests for it to cover interesting
-cases.
+that takes an array of `String` and an integer `n` and produces a new array
+of `String`s that are just the strings in the array that have length `n` or
+greater (the returned array might be **shorter** than the input array). Write
+at least 4 `checkExpect` tests for it to cover interesting cases.
 
 - Copy the `Point` class from the [regions
 code](https://github.com/ucsd-cse11-s20/08-Abstract-Classes) in lecture into
