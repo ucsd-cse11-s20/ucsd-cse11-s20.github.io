@@ -65,10 +65,11 @@ should produce 0.
   the important cases.
 
 - In a file called `PairSelect.java`, add a class `Pair` with fields `a` and
-`b` of type `int`. In a class called `PairSelect`, write a method `getAs`
-that takes an array of `Pair` and returns an array of `int` that contains the
-`a` field of all the `Pair`s in the array given as an argument. Write at
-least 4 `checkExpect` tests for it to cover interesting cases.
+`b` of type `int` (add a constructor to initalize those fields). In a class
+called `PairSelect`, write a method `getAs` that takes an array of `Pair` and
+returns an array of `int` that contains the `a` field of all the `Pair`s in
+the array given as an argument. Write at least 4 `checkExpect` tests for it
+to cover interesting cases.
 
 - In a file called `LongStrings.java`, write a method called `longStrings`
 that takes an array of `String` and an integer `n` and produces a new array
