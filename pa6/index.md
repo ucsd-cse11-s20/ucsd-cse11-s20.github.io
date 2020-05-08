@@ -16,17 +16,43 @@ programs.
 
 You will also submit a survey (required) about your experience in the course.
 
+Submission checklist:
+  - `[ ]` Survey [(submit here)](https://docs.google.com/forms/d/e/1FAIpQLSeWEuBKICqefsps2E7qxognjn6No0UjaRFm1VefSYMbylCqcg/viewform)
+  - `[ ]` PDF to Gradescope assignment `pa6-notes`
+  - `[ ]` Two code files for completed tasks to `pa6-code`
+
 ## Task
 
-Make a copy of this Google Doc (link). You will fill it in as you work.
+Make a copy of [this Google
+Doc](https://docs.google.com/document/d/1pbXuHp-_2wKZR9o44laLOJ45Q9tjFgm9OdC_Pin73Hw/edit?usp=sharing).
+You will fill it in as you work.
 
-<div class='sidenote'>If your living/working situation doesn't afford you 90
-minutes of uninterrupted time, feel free to break up the timed chunks. Do
-your best to do something like 25 minutes with 5 minutes of notes three
-times and follow the spirit of the assignment.</div>
-Set aside 90 continuous uninterrupted minutes for this task.
+Your task is to complete **two** of the following programs of your choice,
+and also complete a reflection while you are working.
 
-You will write programs:
+When you're ready to start programming, set a timer for 30 minutes – work on
+these tasks for that much time. Then, take a screenshot or copy/paste your
+code and the output of the most recent time you ran the program. It's totally
+fine if run is producing errors at this point, the idea is just to take notes
+on progress.
+
+Put that output into the Google Doc at the 30 minute mark, and write down a
+few sentences about your thought process at this point – don't spend more
+than 5 minutes on the notes. Also note if you got distracted by another
+browser tab, your phone, etc during that 30 minutes. You don't have to tell
+us how, just say yes/no and how many minutes you think you were distracted
+for.
+
+When you work again, set another 30 minute timer and work for that time, then
+repeat taking notes. Then do this one more time, for a total of 3 30minute
+sessions each followed by note-taking.
+
+If you don't finish the task, still stop after the three sessions and put the
+notes for the reflection in place (it's not expected that you must finish in
+90 minutes, though you do have to finish, see below). If you finish early,
+note the time you finished.
+
+The tasks, which you should complete two of, are here:
 
 - In a file called `AveragePositives.java`, write a class with a `main`
 method that expects all the command-line arguments to be appropriate inputs
@@ -48,7 +74,8 @@ least 4 `checkExpect` tests for it to cover interesting cases.
 - In a file called `LongStrings.java`, write a method called `longStrings`
 that takes an array of `String` and an integer `n` and produces an array of
 `String` that are just the strings in the array that have length `n` or
-greater. Write 4 `checkExpect` tests for it to cover interesting cases.
+greater. Write at least 4 `checkExpect` tests for it to cover interesting
+cases.
 
 - Copy the `Point` class from the [regions
 code](https://github.com/ucsd-cse11-s20/08-Abstract-Classes) in lecture into
@@ -69,26 +96,10 @@ representing the x and y coordinates of three points. For example:
     The closest points are (0, 0) and (3, 4) at distance 5.0
     ```
 
-Set a timer for 25 minutes – work on these tasks for that much time. Then,
-take a screenshot or copy/paste your code and the output of the most recent
-time you did `./run`. Put that output into the Google Doc at the 25 minute
-mark, and write down 2-3 sentences about your thought process at this point –
-don't spend more than 5 minutes on the notes. Also note if you got distracted
-(you don't have to tell us how) by another browser tab, your phone, etc
-during that 25 minutes. Just say yes/no and how many minutes you think you
-were distracted for.
-
-Set another 25 minute timer and work for another 25 minutes, then repeat
-taking notes. Then do this one more time, for a total of 3 25-minute sessions
-each followed by note-taking.
-
-If you don't finish the task, still stop after 90 minutes and put the notes
-in place (it's not expected that you must finish in 90 minutes!). If you
-finish early, note the time you finished.
-
 ## Reflection
 
-After you're done with the 90 minutes, reflect on the following:
+After you're done with all three sessions (not necessarily the whole
+assignment), reflect on the following:
 
 - Where did you spend the most time? You might have different descriptions,
 some I can think of that I spend a lot of time on are below; you might have
@@ -102,13 +113,24 @@ others.
 - Overall, what did you learn from this experience about your programming
 workflow, if anything?
 
+Some comments on this process: this may not be the ideal way for you to work.
+Sometimes I get a lot of “programming” done while walking my dog, and
+sometimes setting a problem down for a while and coming back to it is the
+best thing. Sometimes I need to focus really hard for several hours to make
+any progress. So I don't expect that you can or should always follow this
+process. However, doing it once might give you a useful scaffolding strategy,
+and it does help you understand how your time management and focus works
+while you're programming, where you got stuck, etc. So for that reason I
+think this is a really useful exercise.
+
 ## Finishing
 
 You must still finish these programs as part of the assignment. There is no
 autograder for them released while the assignment is out; we will grade them
 manually after the deadline. Come ask for help in tutor hours if you need
-help finishing them, but we think the assignment will be most effective if
-you do the 90 minutes first.
+help finishing them! We do ask that you spend at least one 30-minute session
+with notes before coming to lab hours on PA56, and we might ask to see your
+notes for a sense of your progress when you come.
 
 ## Submission
 
