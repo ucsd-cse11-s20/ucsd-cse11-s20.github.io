@@ -6,11 +6,6 @@ doodle: "./doodle.jpeg"
 
 # PA6 -- Programming Workflow
 
-<p style="border: 2px dotted red; padding: 1em;">
-This is a draft, this notice will be removed when the PA is finalized.
-</p>
-
-
 This PA will give you an opportunity to reflect on how you work through
 programs.
 
