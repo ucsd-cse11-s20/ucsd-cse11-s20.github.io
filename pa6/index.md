@@ -21,6 +21,10 @@ On this assignment, you **cannnot** collaborate with anyone. Your submission
 must be your own work and you cannot share or post code from your submission
 anywhere other than to hand in the assignment.
 
+You can get a fresh repository with `run` and `tester.jar` here:
+
+[https://github.com/ucsd-cse11-s20/pa6](https://github.com/ucsd-cse11-s20/pa6)
+
 ## Task
 
 Make a copy of [this Google
