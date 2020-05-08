@@ -16,6 +16,11 @@ Submission checklist:
   - `[ ]` PDF to Gradescope assignment `pa6-notes`
   - `[ ]` Two code files for completed tasks to `pa6-code` (just two of four programs need to be completed)
 
+Different assignments in this course have different collaboration policies.
+On this assignment, you **cannnot** collaborate with anyone. Your submission
+must be your own work and you cannot share or post code from your submission
+anywhere other than to hand in the assignment.
+
 ## Task
 
 Make a copy of [this Google
