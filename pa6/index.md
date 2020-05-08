@@ -104,10 +104,11 @@ workflow, if anything?
 
 ## Finishing
 
-You must still finish these programs. There is no autograder for them
-released while the assignment is out; we will grade them manually after the
-deadline. Come ask for help in tutor hours if you need help finishing them,
-but we think the assignment will be most effective if you 
+You must still finish these programs as part of the assignment. There is no
+autograder for them released while the assignment is out; we will grade them
+manually after the deadline. Come ask for help in tutor hours if you need
+help finishing them, but we think the assignment will be most effective if
+you do the 90 minutes first.
 
 ## Submission
 
