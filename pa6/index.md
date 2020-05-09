@@ -120,12 +120,13 @@ workflow, if anything?
 Some comments on this process: this may not be the ideal way for you to work.
 Sometimes I get a lot of “programming” done while walking my dog, and
 sometimes setting a problem down for a while and coming back to it is the
-best thing. Sometimes I need to focus really hard for several hours to make
-any progress. So I don't expect that you can or should always follow this
-process. However, doing it once might give you a useful scaffolding strategy,
-and it does help you understand how your time management and focus works
-while you're programming, where you got stuck, etc. So for that reason I
-think this is a really useful exercise.
+best thing. You might be working on a day where other urgent obligations
+interrupt you every 5 minutes. Sometimes you may need to focus really hard
+for several hours to make any progress. So I don't expect that you can or
+should always follow this process. However, doing it once might give you a
+useful scaffolding strategy, and it does help you understand how your time
+management and focus works while you're programming, where you got stuck,
+etc. So for that reason I think this is a really useful exercise.
 
 ## Finishing
 
