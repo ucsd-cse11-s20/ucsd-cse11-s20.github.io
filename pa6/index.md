@@ -141,8 +141,8 @@ notes for a sense of your progress when you come.
 Export your notes document as a PDF using Google Docs (under the File menu).
 You'll hand it in under the `pa6-notes` assignment on Gradescope.
 
-You'll hand in the four `.java` files to the `pa6-code` assignment on
-Gradescope.
+You'll hand in the two `.java` files with your completed tasks to the
+`pa6-code` assignment on Gradescope.
 
 ## Challenges and Extra Practice
 
