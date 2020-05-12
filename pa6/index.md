@@ -25,6 +25,13 @@ You can get a fresh repository with `run` and `tester.jar` here:
 
 [https://github.com/ucsd-cse11-s20/pa6](https://github.com/ucsd-cse11-s20/pa6)
 
+## FAQ
+1. You only need to finish/submit 2 of the 4 tasks, and pa6-code assignment on Gradescope is due on the same day as pa6-notes (May 13th).
+
+2. Q: In `AveragePositives.java`, is the number of values that we average over all the numbers passed as command line arguments or just the positive numbers?
+- A: We are only considering positive numbers. So for both the total and the count they should only be of the positive numbers.  
+
+
 ## Task
 
 Make a copy of [this Google
