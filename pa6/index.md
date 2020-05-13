@@ -139,10 +139,10 @@ etc. So for that reason I think this is a really useful exercise.
 
 You must still finish these programs as part of the assignment. There is no
 autograder for them released while the assignment is out; we will grade them
-manually after the deadline. Come ask for help in tutor hours if you need
-help finishing them! We do ask that you spend at least one 30-minute session
-with notes before coming to lab hours on PA56, and we might ask to see your
-notes for a sense of your progress when you come.
+manually after the deadline. Come ask for help in tutor hours (help sessions) 
+if you need help finishing them! We do ask that you spend at least one 
+30-minute session with notes before coming to help sessions on PA6, and we 
+might ask to see your notes for a sense of your progress when you come.
 
 ## Submission
 
