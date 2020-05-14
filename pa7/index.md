@@ -129,29 +129,29 @@ MacOS installation).
 The following commands, when run at the command line, should produce the given outputs.
 
 ```
-$ java StringSearch "sampleFile.txt"
+$ java StringSearch "poem.txt"
 This is a short file
 It contains text and this is
 Also a haiku
-$ java StringSearch "sampleFile.txt" "greater=13"
+$ java StringSearch "poem.txt" "greater=13"
 This is a short file
 It contains text and this is
-$ java StringSearch "sampleFile.txt" "not(contains='short')"
+$ java StringSearch "poem.txt" "not(contains='short')"
 It contains text and this is
 Also a haiku
-$ java StringSearch "sampleFile.txt" "greater=13&starts='This'"
+$ java StringSearch "poem.txt" "greater=13&starts='This'"
 This is a short file
-$ java StringSearch "sampleFile.txt" "contains='his'" "last=10"
+$ java StringSearch "poem.txt" "contains='his'" "last=10"
 short file
 nd this is
-$ java StringSearch "sampleFile.txt" "contains=' a '" "upper&first=18"
+$ java StringSearch "poem.txt" "contains=' a '" "upper&first=18"
 THIS IS A SHORT FI
 ALSO A HAIKU
-$ java StringSearch "sampleFile.txt" "greater=3&less=100&not(ends='z')" "replace='i';'I'"
+$ java StringSearch "poem.txt" "greater=3&less=100&not(ends='z')" "replace='i';'I'"
 ThIs Is a short fIle
 It contaIns text and thIs Is
 Also a haIku
-$ java StringSearch "sampleFile.txt" "greater=3&less=100&not(ends='u')" "replace='i';'I'"
+$ java StringSearch "poem.txt" "greater=3&less=100&not(ends='u')" "replace='i';'I'"
 ThIs Is a short fIle
 It contaIns text and thIs Is
 $ java StringSearch "words" "contains='no'&starts='x'&not(contains='xeno')" "lower"
@@ -206,7 +206,6 @@ type and a _single_ transform of any type, and print all the lines that match
 that single query, transformed by that single transform.
 
 After milestone 4, complete the full task as described above.
-
 
 ## Suggestions
 
