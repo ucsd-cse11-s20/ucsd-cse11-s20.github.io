@@ -6,10 +6,6 @@ doodle: "./doodle.jpeg"
 
 # CSE11S20 PA7 – String Manipulation
 
-<p style="border: 2px dotted red; padding: 1em;">
-This is a draft, this notice will be removed when the PA is finalized.
-</p>
-
 In this assignment you will put together many of the programming features and
 techniques you've seen so far to build a useful command-line application for
 text manipulation.
