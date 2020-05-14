@@ -124,11 +124,11 @@ nd this is
 $ java StringSearch "sampleFile.txt" "contains=' a '" "upper&first=18"
 THIS IS A SHORT FI
 ALSO A HAIKU
-$ java StringSearch "sampleFile.txt" "greater=3&less=100&&not(ends='z')" "replace='i';'I'"
+$ java StringSearch "sampleFile.txt" "greater=3&less=100&not(ends='z')" "replace='i';'I'"
 ThIs Is a short fIle
 It contaIns text and thIs Is
 Also a haIku
-$ java StringSearch "sampleFile.txt" "greater=3&less=100&&not(ends='u')" "replace='i';'I'"
+$ java StringSearch "sampleFile.txt" "greater=3&less=100&not(ends='u')" "replace='i';'I'"
 ThIs Is a short fIle
 It contaIns text and thIs Is
 $ java StringSearch "words" "contains='no'&starts='x'&not(contains='xeno')" "lower"
