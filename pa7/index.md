@@ -15,8 +15,9 @@ techniques you've seen so far to build a useful command-line application for
 text manipulation.
 
 This program is larger than the ones you've written so far for this course,
-and may seem daunting at first. Use the suggestions and milestones near the
-bottom of the description to help you get started and work incrementally.
+so you should **start early** so you understand the scope. Use the
+implementation suggestions and milestones to help you get started and work
+incrementally.
 
 Different assignments in this course have different collaboration policies.
 On this assignment, you cannot share code publicly on Piazza or with anyone
@@ -26,6 +27,13 @@ lecture code, quizzes that are past, or other conceptual questions, just no
 code from this PA. You can't get help from anyone but the course staff on
 this PA.
 
+On this assignment, we **encourage** you to share publicly and with other
+students what you think the expected output should be on particular examples.
+For example, you could share a `java StringSearch ...` command you tried out,
+and show the results, and check with other students if they agree on the
+behavior. This allows you to discuss how the assignment is supposed to work
+without sharing any code.
+
 Submission checklist:
 
 - `[ ]` `StringSearchMilestone1.java`
@@ -33,6 +41,10 @@ Submission checklist:
 - `[ ]` `StringSearchMilestone3.java`
 - `[ ]` `StringSearchMilestone4.java`
 - `[ ]` `StringSearch.java`
+
+Starter code here (just empty files):
+
+[https://github.com/ucsd-cse11-s20/pa7](https://github.com/ucsd-cse11-s20/pa7)
 
 ## Task
 
@@ -55,8 +67,9 @@ after transforming them somehow.
 The `<thing>` syntax means, as usual, that we will be describing what kinds
 of syntax can go in each position in more detail.
 
-- `<file>` should be a path to a file. We've included several for you to test
-on with examples below.
+- `<file>` should be a path to a file. We've included two for you to test
+on with examples below. You should make a few of your own files and try them
+out, as well.
 - `<query>` describes criteria for which lines in the file to print.
 - `<transform>` describes how to change each line in the file before printing.
 
@@ -80,15 +93,25 @@ of individual transforms. The individual transforms are:
 
 - `upper` which transforms the line to uppercase
 - `lower` which transforms the line to lowercase
-- `first=<number>` which transforms the line by taking the first `<number>` characters of the line
-- `last=<number>` which transforms the line by taking the last `<number>` characters of the line
+- `first=<number>` which transforms the line by taking the first `<number>`
+characters of the line. If there are fewer than `<number>` characters,
+produces the whole line
+- `last=<number>` which transforms the line by taking the last `<number>`
+characters of the line. If there are fewer than `<number>` characters,
+produces the whole line
 - `replace=<string>;<string>` which transforms the line by replacing all
-appearances of the first string with the second
+appearances of the first string with the second (some lines might have no
+replacements, and won't be transformed by this transform)
 
 Where you see `<string>` above, it should always be characters inside
-_single_ quotes, like `'abc'`. This works best with command-line tools.
+_single_ quotes, like `'abc'`. We chose this because it works best with
+command-line tools.
 
 Where you see `<number>` above, it should always be a positive integer.
+
+The `<file>`, `<query>`, and `<transform>` command-line arguments should
+always be inside double quotes. This ensures that they won't be interpreted
+as commands, or parts of commands, by your terminal.
 
 ### Examples
 
@@ -141,7 +164,6 @@ xylenol
 xyloquinone
 xylorcinol
 ```
-
 
 ## Milestones
 
@@ -237,3 +259,18 @@ class FileHelper {
   }
 }
 ```
+
+## Extensions
+
+These are not for credit, but you may find them interesting to try on your own.
+
+1. Add a new transform of your own design.
+
+2. Add a new query of your own design.
+
+3. All of the queries above are joined in the style of `AndQuery` from the
+`ImageQuery` reading, where they all need to be true to match a line. Extend
+your implementation to accept both `&` and `|` as separators between queries,
+where `|` indicates joining queries by **or** rather than **and**. Describe
+the design and details of how to read in and interpret a mix of `&` and `|`
+within a query to a user.
