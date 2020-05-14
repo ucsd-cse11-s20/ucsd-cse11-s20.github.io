@@ -262,7 +262,9 @@ class FileHelper {
 ## Submission
 
 Submit your 5 code files (4 milestones and final `StringSearch.java`) to
-`pa7` on Gradescope.
+`pa7` on Gradescope. There will be an autograder available while the
+assignment is out, and we will also give you feedback on your code after
+submission.
 
 ## Extensions
 
