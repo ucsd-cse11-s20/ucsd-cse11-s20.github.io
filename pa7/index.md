@@ -32,7 +32,8 @@ students what you think the expected output should be on particular examples.
 For example, you could share a `java StringSearch ...` command you tried out,
 and show the results, and check with other students if they agree on the
 behavior. This allows you to discuss how the assignment is supposed to work
-without sharing any code.
+without sharing any code, and you also might want to share examples you found
+interesting!
 
 Submission checklist:
 
@@ -261,6 +262,11 @@ class FileHelper {
   }
 }
 ```
+
+## Submission
+
+Submit your 5 code files (4 milestones and final `StringSearch.java`) to
+`pa7` on Gradescope.
 
 ## Extensions
 
