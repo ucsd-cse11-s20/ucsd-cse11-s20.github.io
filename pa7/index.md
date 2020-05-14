@@ -1,0 +1,239 @@
+---
+layout: page
+title: "UCSD CSE11 S20 – PA7"
+doodle: "./doodle.jpeg"
+---
+
+# CSE11S20 PA7 – Searching Strings
+
+<p style="border: 2px dotted red; padding: 1em;">
+This is a draft, this notice will be removed when the PA is finalized.
+</p>
+
+In this assignment you will put together many of the programming features and
+techniques you've seen so far to build a useful command-line application for
+text manipulation.
+
+This program is larger than the ones you've written so far for this course,
+and may seem daunting at first. Use the suggestions and milestones near the
+bottom of the description to help you get started and work incrementally.
+
+Different assignments in this course have different collaboration policies.
+On this assignment, you cannot share code publicly on Piazza or with anyone
+other than the course staff. If you need to share code, ask in a private
+Piazza post or in 1-on-1 hours. Still do ask any public code questions about
+lecture code, quizzes that are past, or other conceptual questions, just no
+code from this PA. You can't get help from anyone but the course staff on
+this PA.
+
+Submission checklist:
+
+- `[ ]` `StringSearchMilestone1.java`
+- `[ ]` `StringSearchMilestone2.java`
+- `[ ]` `StringSearchMilestone3.java`
+- `[ ]` `StringSearchMilestone4.java`
+- `[ ]` `StringSearch.java`
+
+## Task
+
+In a file called `StringSearch.java`, you'll write a class `StringSearch`
+with a `main` method that uses command-line arguments as described below. You
+can write as many additional methods and classes as you wish, and use any
+Java features you like. We have some suggestions in the program structure
+section later on that you can use, or not use, as you see fit.
+
+The `main` method should expect 3 command-line arguments:
+
+```
+$ java StringSearch "<file>" "<query>" "<transform>"
+```
+
+The overall goal of `StringSearch` is to take a file of text, search for
+lines in the file based on some criteria, then print out the matching lines
+after transforming them somehow.
+
+The `<thing>` syntax means, as usual, that we will be describing what kinds
+of syntax can go in each position in more detail.
+
+- `<file>` should be a path to a file. We've included several for you to test
+on with examples below.
+- `<query>` describes criteria for which lines in the file to print.
+- `<transform>` describes how to change each line in the file before printing.
+
+### Queries
+
+The `<query>` part of the command-line should be a `&`-separated sequence of
+individual queries. The individual queries are:
+
+- `length=<number>` which matches lines with exactly `<number>` characters
+- `greater=<number>` which matches lines with more than `<number>` characters
+- `less=<number>` which matches lines with less than `<number>` characters
+- `contains=<string>` which matches lines containing the `<string>` (case-sensitive)
+- `starts=<string>` which matches lines starting with the `<string>`
+- `ends=<string>` which matches lines ending with the `<string>`
+- `not(<some non-not query>)` which matches lines that _do not_ match the inner query
+
+### Transforms
+
+The `<transform>` part of the command-line should be a `&`-separated sequence
+of individual transforms. The individual transforms are:
+
+- `upper` which transforms the line to uppercase
+- `lower` which transforms the line to lowercase
+- `first=<number>` which transforms the line by taking the first `<number>` characters of the line
+- `last=<number>` which transforms the line by taking the last `<number>` characters of the line
+- `replace=<string>;<string>` which transforms the line by replacing all
+appearances of the first string with the second
+
+Where you see `<string>` above, it should always be characters inside
+_single_ quotes, like `'abc'`. This works best with command-line tools.
+
+Where you see `<number>` above, it should always be a positive integer.
+
+### Examples
+
+<div class='sidenote'>Poem by tutor Rachel Lim</div>
+The file `poem.txt` contains the following content:
+```
+This is a short file
+It contains text and this is
+Also a haiku
+```
+
+The file `words` contains a standard dictionary (it's from Joe's computer's
+MacOS installation).
+
+The following commands, when run at the command line, should produce the given outputs.
+
+```
+$ java StringSearch "sampleFile.txt"
+This is a short file
+It contains text and this is
+Also a haiku
+$ java StringSearch "sampleFile.txt" "greater=13"
+This is a short file
+It contains text and this is
+$ java StringSearch "sampleFile.txt" "not(contains='short')"
+It contains text and this is
+Also a haiku
+$ java StringSearch "sampleFile.txt" "greater=13&starts='This'"
+This is a short file
+$ java StringSearch "sampleFile.txt" "contains='his'" "last=10"
+short file
+nd this is
+$ java StringSearch "sampleFile.txt" "contains=' a '" "upper&first=18"
+THIS IS A SHORT FI
+ALSO A HAIKU
+$ java StringSearch "sampleFile.txt" "greater=3&less=100&&not(ends='z')" "replace='i';'I'"
+ThIs Is a short fIle
+It contaIns text and thIs Is
+Also a haIku
+$ java StringSearch "sampleFile.txt" "greater=3&less=100&&not(ends='u')" "replace='i';'I'"
+ThIs Is a short fIle
+It contaIns text and thIs Is
+$ java StringSearch "words" "contains='no'&starts='x'&not(contains='xeno')" "lower"
+xanthocyanopsia
+xanthocyanopsy
+xanthocyanopy
+xanthomelanous
+xoanon
+xylenol
+xyloquinone
+xylorcinol
+```
+
+
+## Milestones
+
+You **must** submit the following milestones with your submission. You should
+save them in files called `StringSearchMilestone1.java`,
+`StringSearchMilestone2.java`, and so on. This is the main way we will grant
+partial credit, and they also serve to help you break the program into small
+chunks of progress.
+
+We recommend working on the first milestone directly in `StringSearch.java`.
+Once it's working, you can save to the `StringSearchMilestone1.java` file to
+record your progress and keep working in `StringSearch.java`. You can upload
+any of the milestones to Gradescope to get grading feedback on them. If you
+finish multiple milestones at once, you can always copy your more advanced
+solution as the earlier milestone files – you're only adding, not changing
+features as you go through the milestones.
+
+### Milestone 1
+
+Your program should take in one argument that is the name of the file to
+read, and print out all the lines in that file in order.
+
+### Milestone 2
+
+Your program should take in the name of the file and a _single_ contains
+query, and print all the lines that match that single contains query.
+
+### Milestone 3
+
+Your program should take in the name of the file and a _single_ query of any
+type, and print all the lines that match that single query.
+
+### Milestone 4
+
+Your program should take in the name of the file and a _single_ query of any
+type and a _single_ transform of any type, and print all the lines that match
+that single query, transformed by that single transform.
+
+After milestone 4, complete the full task as described above.
+
+
+## Suggestions
+
+### Implementation Ideas
+
+You may find it useful to write or use some of the following components while
+implementing your program. These are not required, and you may find only some
+of them useful to you, or you might find all of them useful to you. We do
+think they are all useful, so we aren't trying to trick you or anything 🙂.
+If you do choose some other approach, during help hours we may guide you
+towards these if we think your choices won't lead to a successful design.
+
+- An interface `Query` that has a `boolean matches(String s)` method
+- Several classes representing different individual queries like `Contains`, etc
+- A method `Query readQuery(String q)` that takes a query string and
+produces a `Query`
+- An interface `Transform` that has a `String transform(String s)` method
+- Several classes representing different individual transformes like `ToUpper`, etc
+- A method `Transform readTransform(String t)` that takes a transform string
+for a single transform and produces a `Transform`
+- The built-in Java <a href="https://docs.oracle.com/en/java/javase/13/docs/api/java.base/java/lang/String.html#split(java.lang.String)">String `split` method</a>
+- A method `boolean matchesAll(Query[] qs, String s)` that returns `true` if
+all the queries match a given string.
+- A method `String applyAll(Transform[] ts, String s)` that returns the
+result of applying all of the `Transform`s in `ts` to `s` in order.
+
+### Reading Files
+
+<div class='sidenote'>There are one or two things in this file-reading code
+that are new-ish Java features. You can use the method <code>getLines</code>
+without understanding them all. We will discuss them by the end of the
+quarter.</div>
+Part of this PA requires that you read in the contents of a file. You can
+include this code snippet at the top of your file:
+
+```
+import java.nio.file.*;
+import java.io.IOException;
+
+class FileHelper {
+  /*
+    Takes a path to a file and returns all of the lines in the file as an
+    array of strings, printing an error if it failed.
+  */
+  static String[] getLines(String path) {
+    try {
+      return Files.readAllLines(Paths.get(path)).toArray(String[]::new);
+    }
+    catch(IOException e) {
+      System.err.println("Error reading file " + path + ": " + e);
+      return new String[]{"Error reading file " + path + ": " + e};
+    }
+  }
+}
+```
