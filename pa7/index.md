@@ -1,10 +1,10 @@
 ---
 layout: page
-title: "UCSD CSE11 S20 – PA7"
+title: "PA7 – UCSD CSE11 S20"
 doodle: "./doodle.jpeg"
 ---
 
-# CSE11S20 PA7 – Searching Strings
+# CSE11S20 PA7 – String Manipulation
 
 <p style="border: 2px dotted red; padding: 1em;">
 This is a draft, this notice will be removed when the PA is finalized.
