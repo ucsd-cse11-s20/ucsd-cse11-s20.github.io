@@ -175,11 +175,14 @@ chunks of progress.
 
 We recommend working on the first milestone directly in `StringSearch.java`.
 Once it's working, you can save to the `StringSearchMilestone1.java` file to
-record your progress and keep working in `StringSearch.java`. You can upload
-any of the milestones to Gradescope to get grading feedback on them. If you
-finish multiple milestones at once, you can always copy your more advanced
-solution as the earlier milestone files – you're only adding, not changing
-features as you go through the milestones.
+record your progress and keep working in `StringSearch.java`. You can then
+work towards the second, copy your work over when done with that milestone,
+and so on to build up your submission.
+
+You can upload any of the milestones to Gradescope to get grading feedback on
+them. If you finish multiple milestones at once, you can always copy your
+more advanced solution as the earlier milestone files – you're only adding,
+not changing features as you go through the milestones.
 
 ### Milestone 1
 
