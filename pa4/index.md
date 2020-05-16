@@ -25,13 +25,13 @@ code, quizzes that are past, or other conceptual questions, just no code from
 this PA.
 
 ## FAQ
-1. In class ReplyTweet, should be field replyTo be a TextTweet object instead of a Tweet?
-- replyTo field should be of type Tweet, because you can reply to any Tweet. See the sidenote in the writeup, "A Twitter-specific pattern is writing a “thread” by replying to one's own Tweets repeatedly." Having replyTo as a Tweet object helps us achieve the "thread" function. 
+1. In class `ReplyTweet`, should be field `replyTo` be a `TextTweet` object instead of a `Tweet`?
+- `replyTo` field should be of type `Tweet`, because you can reply to any `Tweet`. See the sidenote in the writeup, "A Twitter-specific pattern is writing a “thread” by replying to one's own Tweets repeatedly." Having replyTo as a Tweet object helps us achieve the "thread" function. 
 
-2. If replyTo is a Tweet, how can I use the fields, like author, inside it?
-- Let’s think about the examples in Lecture 7 — how do UnionRegion and IntersectRegion work if they don't know which specific type the two Region fields have? How did they avoid needing to see use the center field of CircRegion, or the upperLeft field of RectRegion?
+2. If `replyTo` is a `Tweet`, how can I use the fields, like `author`, inside it?
+- Let’s think about the examples in Lecture 7 — how do `UnionRegion` and `IntersectRegion` work if they don't know which specific type the two `Region` fields have? How did they avoid needing to see use the `center` field of `CircRegion`, or the `upperLeft` field of `RectRegion`?
 
-3. Should class ReplyTweet implement Tweet?
+3. Should class `ReplyTweet` implement `Tweet`?
 - Yes, and the writeup has been updated to explicitly say that.
 
 4. Why is the autograder producing this error “…” for me?
@@ -41,21 +41,21 @@ this PA.
 5. My code does not run on Gradescope because it’s still WIP. How can I check that the part I finished is correct?
 - For the methods you haven’t finished yet, you can put implementations for them that intentionally return the wrong answer, like an empty string or false, to make it so all the tests will run.
 
-6. VSCode is red underlining the import tester statement. Is this an error?
-- Before trying to assess the error, try compiling your code and running it. Sometimes VSCode will erroneously underline imports that actually do work. If the code does not compile, make sure that the file that is trying to import the tester is in the same folder as tester.jar. 
+6. VSCode is red underlining the `import tester` statement. Is this an error?
+- Before trying to assess the error, try compiling your code and running it. Sometimes VSCode will erroneously underline imports that actually do work. If the code does not compile, make sure that the file that is trying to import the tester is in the same folder as `tester.jar`. 
 
-7. For unrollThread methods in Tweets.java, I cannot pass the tests on Gradescope, but the expected result and my program result look exactly the same.
+7. For `unrollThread` methods in `Tweets.java`, I cannot pass the tests on Gradescope, but the expected result and my program result look exactly the same.
 - This is probably because of a missing or extra newline character or space character that is hard to spot with our eyes. The autograder has been updated to give a hint:"(Hint) If your result looks the same as the reference output but still gets an error, there may be extra space characters or newline characters in your result. You may try to print the length of your output String locally to see if it matches your expectation." 
 
-8. I wrote test methods with the Tester, but ./run is telling me that no tests ran.
-- Tester methods have to start with "test" at the beginning! I think we didn't make a big deal of this in lecture and it's mentioned quickly in the reading, but they do have to start with that word, like
-boolean testAdd(Tester t) { .... }
+8. I wrote test methods with the `Tester`, but `./run` is telling me that no tests ran.
+- `Tester` methods have to start with "test" at the beginning! I think we didn't make a big deal of this in lecture and it's mentioned quickly in the reading, but they do have to start with that word, like
+`boolean testAdd(Tester t) { .... }`
 
-9. Am I required to write tests in the ExamplesNumber class?
+9. Am I required to write tests in the `ExamplesNumber` class?
 - We won't grade tests written there, but we encourage you to write them to gain confidence in your code!
 
-10. Should the unrollThread method of ReplyTweet start with just the contents of the replyTo tweet, or the entire unrolled tweet?
-- It should contain the entire unrolled tweet, not just the contents field.
+10. Should the `unrollThread` method of `ReplyTweet` start with just the contents of the `replyTo` tweet, or the entire unrolled tweet?
+- It should contain the entire unrolled tweet, not just the `contents` field.
 
 ## Tweets
 
