@@ -51,6 +51,11 @@ can write as many additional methods and classes as you wish, and use any
 Java features you like. We have some suggestions in the program structure
 section later on that you can use, or not use, as you see fit.
 
+<div class='sidenote'>Clarification: If just a file is provided, the program
+should print the file's entire contents, and if just a file and a query are
+provided with no transform, just the matching lines should print (see examples
+below).</div>
+
 The `main` method should expect 3 command-line arguments:
 
 ```
