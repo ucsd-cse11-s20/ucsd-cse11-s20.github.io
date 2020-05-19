@@ -52,7 +52,9 @@ Starter code here (just empty files):
 
 3. **Q: What does "a query of any type" in Milestone3 mean?**
 - This means any **single** query (length, greater, less, contains, starts, ends, not) could be used to test the Milestone3 code. An example of a test that would **not** be run on Milestone3 but could be run on the final completed task is:
+
 (command line) `java StringSearch "poem.txt" "greater=13&starts='This'"`
+
 (output) `This is a short file`
 
 
