@@ -43,6 +43,20 @@ Starter code here (just empty files):
 
 [https://github.com/ucsd-cse11-s20/pa7](https://github.com/ucsd-cse11-s20/pa7)
 
+## FAQ
+1. **Q: My gradescope submission is not compiling for `StringSearchMilestone1/2/3/4`.**
+- Double check the name of the class. The class name should not be `StringSearchMilestone1/2/3/4` but rather just `StringSearch`.
+
+2. **Q: My queries and/or transforms worked fine locally but failed on the autograder.**
+- The autograder checks for sample tests provided in the writeup as well as some more interesting cases. Try to come up with more thorough test cases when testing locally!
+
+3. **Q: What does "a query of any type" in Milestone3 mean?**
+- This means any **single** query (length, greater, less, contains, starts, ends, not) could be used to test the Milestone3 code. An example of a test that would **not** be run on Milestone3 but could be run on the final completed task is:
+(command line) `java StringSearch "poem.txt" "greater=13&starts='This'"`
+(output) `This is a short file`
+
+
+
 ## Task
 
 In a file called `StringSearch.java`, you'll write a class `StringSearch`
