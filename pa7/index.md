@@ -57,7 +57,8 @@ Starter code here (just empty files):
 
 (output) `This is a short file`
 
-
+4. **Q: What if there are multiple, potentially conflicting, transforms?**
+- The transforms should be applied in order, from left to right.
 
 ## Task
 
