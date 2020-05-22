@@ -4,7 +4,6 @@ title: "PA8 – UCSD CSE11 S20"
 doodle: "./doodle.jpeg"
 ---
 
-
 # Comparators, Lists, and Exceptions Practice
 
 In this assignment you'll learn about an important built-in Java interface,
