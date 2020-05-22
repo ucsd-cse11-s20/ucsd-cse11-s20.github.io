@@ -27,7 +27,11 @@ Submission checklist:
 - `[ ]` PDF submission of memory diagram for exception, submitted to the
 `pa8-stacktrace` assignment
 
-##
+Starter code is available here (includes relevant imports):
+
+[https://github.com/ucsd-cse11-s20/pa8-starter](https://github.com/ucsd-cse11-s20/pa8-starter)
+
+## Comparators and Lists
 
 The
 [Comparator](https://docs.oracle.com/en/java/javase/13/docs/api/java.base/java/util/Comparator.html)
@@ -55,6 +59,7 @@ All of your code will go into a single file `CompareLists.java`.
 First, write the following implementations of the `Comparator` interface. You
 can write them all in the file `CompareLists.java`.
 
+<div class='sidenote'>Hint: not all classes need constructors.</div>
 1. Write a class `PointCompare` that implements `Comparator<Point>`
 that compares points by the following process
     - If the first point's `y` coordinate is smaller than the other point's
@@ -85,6 +90,7 @@ In this part of the assignment, you'll write several generic `List`
 methods that make use of the `Comparator` interface. Write these all in a
 class named `CompareLists` in `CompareLists.java`.
 
+<div class='sidenote'>Hint: write and test one method at a time!</div>
 1. Write a generic method `minimum` that takes a `List<E>` and a
 `Comparator<E>` and returns the _smallest_ element in the list according the
 comparator, or `null` if the list is empty. Assume there are no `null`
@@ -119,11 +125,17 @@ that says `"null value in first list"` if it came from the first one, and
 Write at least this many tests:
 
 - For each of these six methods, write a `checkExpect` test for three of the
-comparators you wrote in the first part (so you should write 30 total tests
-for this task).
+comparators you wrote in the first part (so you should write 18 total tests
+for this task). You should write _more_ than this to be confident that your
+methods work correctly, but this amount will make sure you have some basic
+coverage.
 - Make sure that across these tests you use all the comparators
 you wrote at least once
-<div class='sidenote'>You can see how to <a href="https://course.ccs.neu.edu/cs2510/tester-doc.html#%28part._.Exception_testing%29">test exceptions here</a></div>
+<div class='sidenote'>You can see how to <a
+href="https://course.ccs.neu.edu/cs2510/tester-doc.html#%28part._.Exception_testing%29">test
+exceptions here</a>. You may find it useful to first write and test the
+methods <i>without</i> any exceptions, and then go back and add the required error
+cases.</div>
 - For each method that has throwing an exception in its description, at least
 one of the tests should throw an exception, and you should test for it.
 
@@ -135,11 +147,15 @@ command line and you can see the stack trace.
 
 Take a screen shot of the stack trace.
 
+<div class='sidenote'>You can draw it in a tool like Google Slides, or by
+hand and take a picture, or any other tool you like as long as it's
+clear.</div>
 Draw a picture of the stack and heap at the time the exception was thrown.
 You can use the style from class/the notes with boxes for method calls and
-objects/arrays/lists. Put your drawing in the document, and include
-screenshots of the methods and method calls from your code that are reported
-in the stack trace.
+objects/arrays/lists. Put your drawing in the document.
+
+Then, include screenshots of the methods and method calls from your code that
+are reported in the stack trace.
 
 You can use this document as a template:
 
@@ -153,7 +169,7 @@ screenshots as a PDF to `pa8-stacktrace`.
 ### Tips and Tricks
 
 <div class='sidenote'>This is similar to our uses of interfaces vs.
-particular implementations!</div>
+particular implementations of Region or Query!</div>
 
 1. All of the methods are specified to use the type `List`. `List` is an
 interface in Java that specifies a number of methods implemented by different
@@ -179,5 +195,7 @@ lengths and contents.
 
 Check out the Java documentation on <a
 href="https://docs.oracle.com/javase/specs/jls/se13/html/jls-15.html#jls-15.13">Method
-References</a> and the video in this course on lambda expressions for ways to
-create `Comparator`s with less code!
+References</a> and the <a
+href="https://drive.google.com/open?id=1IrjAIZ3RwDxDMVzf3wZ9GRLj-bGFPuBA">video
+in this course on lambda expressions</a> for ways to create `Comparator`s
+with less code!
