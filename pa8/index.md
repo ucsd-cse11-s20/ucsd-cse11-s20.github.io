@@ -73,7 +73,8 @@ for `Point`s that compares the points' distance from `(0, 0)`. If the first
 point's distance is closer to 0, it's smaller, if the distances are equal,
 the points are equal, and if the distance is further from 0, the point is
 larger.
-3. Write a class `StringCompare` that implements `Comparator<String>` that uses the
+3. <div class='sidenote'>Remember the method <a href="https://docs.oracle.com/en/java/javase/13/docs/api/java.base/java/lang/String.html#compareTo(java.lang.String)">compareTo</a>.</div>
+Write a class `StringCompare` that implements `Comparator<String>` that uses the
 `compareTo` method on strings for comparison and returns the result of
 `compareTo` directly.
 4. Write a class `StringLengthCompare` that implements `Comparator<String>` that compares `String`s
@@ -108,12 +109,12 @@ array.
 `Comparator<E>` and returns `true` if the elements in the array list are in
 increasing order according to the comparator, and `false` otherwise. If any
 of the elements in the list are `null`, throw an `IllegalArgumentException`
-with a message of your choice.
+with a message that says `"null value in list"`.
 4. Write an overload of the generic method `inOrder` that takes an `E[]` (an
 array of `E`) and a `Comparator<E>` and returns `true` if the elements in the
 array list are in increasing order according to the comparator, and `false`
 otherwise. If any of the elements in the list are `null`, throw an
-`IllegalArgumentException` with a message that says `"null value in list"`.
+`IllegalArgumentException` with a message that says `"null value in array"`.
 3. Write a generic method `merge` that takes a `Comparator<E>` and two
 `List<E>`, each of which is in _increasing order_ according to the given
 comparator. It should return a _new_ `List<E>` containing all the
@@ -124,6 +125,13 @@ that says `"null value in first list"` if it came from the first one, and
 
 Write at least this many tests:
 
+<div class='sidenote'>You can the documentation on how to <a
+href="https://course.ccs.neu.edu/cs2510/tester-doc.html#%28part._.Exception_testing%29">test
+exceptions here</a>. Testing exceptions is always a little weird-looking
+because we need to test for the thrown value, which acts differently than a
+normal return value by design! You may find it useful to first write and test
+the methods <i>without</i> any exceptions, and then go back and add the
+required error cases.</div>
 - For each of these six methods, write a `checkExpect` test for three of the
 comparators you wrote in the first part (so you should write 18 total tests
 for this task). You should write _more_ than this to be confident that your
@@ -131,13 +139,19 @@ methods work correctly, but this amount will make sure you have some basic
 coverage.
 - Make sure that across these tests you use all the comparators
 you wrote at least once
-<div class='sidenote'>You can see how to <a
-href="https://course.ccs.neu.edu/cs2510/tester-doc.html#%28part._.Exception_testing%29">test
-exceptions here</a>. You may find it useful to first write and test the
-methods <i>without</i> any exceptions, and then go back and add the required error
-cases.</div>
 - For each method that has throwing an exception in its description, at least
-one of the tests should throw an exception, and you should test for it.
+one of the tests should throw an exception, and you should test for it. Tests
+for exceptions look like this:
+
+    ```
+    t.checkExpect(new IllegalArgumentException("message goes here"),
+                  this, "inOrder", aTestList)
+    ```
+
+    The constructed exception is the expected exception value. The `this`,
+    `"inOrder"`, and `aTestList` describe a method call like
+    `this.inOrder(aTestList)` in a way that the tester library can call the
+    method while checking for the required exception.
 
 ### Exceptions and The Stack
 
