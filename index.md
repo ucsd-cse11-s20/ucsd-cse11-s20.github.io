@@ -174,7 +174,11 @@ There are three components to your grade in the course:
 
 - 20% Engagement (surveys, lecture quizzes, etc)
 - 50% Programming Assignments (weekly)
-- 30% Exams (Code + video)
+- 30% Exams (Code + video), 2 midterms + final
+  - Best exam performance counts for 15%
+  - Middle exam counts for 10%
+  - Lowest exam counts for 5%
+  - You must pass two out of three exams to pass the course
 
 <a id="g:engage"></a>
 <h3>Engagement</h3>
@@ -200,6 +204,22 @@ your grade report. After you get your grade, you'll follow up with a new
 submission that addresses the feedback tasks and your grade will be based on
 how well you responded. A more correct and thorough initial submission will
 usually have a much smaller set of feedback tasks.
+
+There are 10 PAs total, and their relative weightings that add up to 50% are:
+
+- PA0.5: 1%
+- PA1: 4%
+- PA2: 5%
+- PA3: 6%
+- PA4: 7%
+- PA5: 6%
+- PA6: 3%
+- PA7: 8%
+- PA8: 5%
+- PA9: 5%
+
+After you get your grade back on each you have some time to improve your
+grade via feedback tasks and resubmitting any automatically-graded component.
 
 <a id="g:exams"></a>
 <h3>Exams</h3>
