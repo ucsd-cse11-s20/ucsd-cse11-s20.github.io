@@ -6,6 +6,8 @@ doodle: "./doodle.jpeg"
 
 # Comparators, Lists, and Exceptions Practice
 
+Due: 10pm on Wednesday, May 27.
+
 In this assignment you'll learn about an important built-in Java interface,
 practice with Java lists, and work on understanding how to `throw`
 exceptions.
