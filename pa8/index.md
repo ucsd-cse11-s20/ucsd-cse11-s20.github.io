@@ -32,6 +32,26 @@ Starter code is available here (includes relevant imports):
 
 [https://github.com/ucsd-cse11-s20/pa8-starter](https://github.com/ucsd-cse11-s20/pa8-starter)
 
+## FAQ
+1. **Q: "Where should I write my list comparison tests?"**
+- The 18 test cases (and potentially more) should all go in `CompareLists.java`. Make sure to also take a look at the tips and tricks section of the writeup for a convenient way to create Lists in Java!
+
+2. **Q: "Can we use the `Comparator` class for testing?"**
+- Yes you can use the class for testing. However, these tests do not count towards the 18 mandatory test cases for the list comparison. 
+
+3. **Q: "Can we assume that at least one element is always in the list?"**
+- No. The writeup only states that there will not be null elements in the list. This could be a good test to write to check behavior!
+
+4. **Q: "Are the lists `{1,2, 2, 3, 4}` and `{}` in order?"**
+- Yes to both. Repeated elements still means the list is in order and an empty list also considered ordered.
+
+5. **Q: "I'm trying to write tests but Java won't let me do: `newArrayList.add("Hello world");` **
+- This is because within a class only field declarations are allowed. To successfully call the add method you can use a braced blocked like in: https://github.com/ucsd-cse11-s20/13-Filter-Array-Creation/blob/master/ArrayUpdateCreation.java#L34 Alternatively, look in the tips and tricks sections on how to create and fill List objects in one line!
+
+6. **Q: What type should the methods in the `XXXCompare` classes return? Some are not explicitly said in the description. **
+- You can follow the example of `class CompareDoubles` provided right before the Comparator section. 
+
+
 ## Comparators and Lists
 
 The
