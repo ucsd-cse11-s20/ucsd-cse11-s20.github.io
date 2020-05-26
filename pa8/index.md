@@ -51,7 +51,7 @@ Starter code is available here (includes relevant imports):
 6. **Q: What type should the methods in the `XXXCompare` classes return? Some are not explicitly said in the description.**
 - You can follow the example of `class CompareDoubles` provided right before the Comparator section. 
 
-7. **Q: I have completed the `Comparator` section of the PA and a single method for List Methods. I want to submit to gradescope but my code is not compiling. **
+7. **Q: I have completed the `Comparator` section of the PA and a single method for List Methods. I want to submit to gradescope but my code is not compiling.**
 - Prior to submitting to gradescope, make sure that you have all of the **method signatures** in List Methods. (It is ok to have an incorrect implementation, for example simply return null, because this is solely to get the code to compile)
 
 
