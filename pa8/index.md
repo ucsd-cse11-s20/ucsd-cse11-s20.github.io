@@ -48,8 +48,11 @@ Starter code is available here (includes relevant imports):
 5. **Q: "I'm trying to write tests but Java won't let me do: `newArrayList.add("Hello world");`**
 - This is because within a class only field declarations are allowed. To successfully call the add method you can use a braced blocked like in: https://github.com/ucsd-cse11-s20/13-Filter-Array-Creation/blob/master/ArrayUpdateCreation.java#L34 Alternatively, look in the tips and tricks sections on how to create and fill List objects in one line!
 
-6.**Q: What type should the methods in the `XXXCompare` classes return? Some are not explicitly said in the description.**
+6. **Q: What type should the methods in the `XXXCompare` classes return? Some are not explicitly said in the description.**
 - You can follow the example of `class CompareDoubles` provided right before the Comparator section. 
+
+7. **Q: I have completed the `Comparator` section of the PA and a single method for List Methods. I want to submit to gradescope but my code is not compiling. **
+- Prior to submitting to gradescope, make sure that you have all of the **method signatures** in List Methods. (It is ok to have an incorrect implementation, for example simply return null, because this is solely to get the code to compile)
 
 
 ## Comparators and Lists
