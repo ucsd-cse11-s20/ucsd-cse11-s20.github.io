@@ -54,7 +54,7 @@ Starter code is available here (includes relevant imports):
 7. **Q: I have completed the `Comparator` section of the PA and a single method for List Methods. I want to submit to gradescope but my code is not compiling.**
 - Prior to submitting to gradescope, make sure that you have all of the **method signatures** in List Methods. (It is ok to have an incorrect implementation, for example simply return null, because this is solely to get the code to compile)
 
-8. **Q: I am getting "method XXX in class CompareLists cannot be applied to given types" from the autograder but it seemed to be working fine locally. **
+8. **Q: I am getting "method XXX in class CompareLists cannot be applied to given types" from the autograder but it seemed to be working fine locally.**
 - You can double-check your method signature - does it have the correct return type and correct order of parameters as specified in the writeup? 
 
 9. **Q: I am getting an error when I am using `checkExpect` for exception tests.**
