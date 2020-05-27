@@ -174,7 +174,7 @@ one of the tests should throw an exception, and you should test for it. Tests
 for exceptions look like this:
 
     ```
-    t.checkExceptioin(new IllegalArgumentException("message goes here"),
+    t.checkException(new IllegalArgumentException("message goes here"),
                   this, "inOrder", aTestList)
     ```
 
