@@ -5,7 +5,7 @@ doodle: "/doodle.png"
 ---
 
 **This is a draft and this notice will be removed when the assignment is
-*complete.**
+complete.**
 
 Due **Thursday**, June 4, 10pm.
 
