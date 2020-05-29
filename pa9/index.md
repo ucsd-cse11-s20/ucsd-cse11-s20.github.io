@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "PA9 – UCSD CSE11 S20"
-doodle: "../doodle.jpeg"
+doodle: "/doodle.png"
 ---
 
 **This is a draft and this notice will be removed when the assignment is
@@ -21,12 +21,12 @@ Make sure to finish it _before_ going on to task 2.
 
 ## Task 2
 
-Add the following query option to your PA7 implementation:
+1. Add the following query option to your PA7 implementation:
 
-- `word=<string>` – should match lines where the given string appears either
-at the beginning of the line followed by a space, the end of the line
-preceded by a space, or somewhere in the middle of the line with spaces on
-either side.
+    `word=<string>` – should match lines where the given string appears either
+    at the beginning of the line followed by a space, the end of the line
+    preceded by a space, or somewhere in the middle of the line with spaces on
+    either side.
 
     **Examples**: The query `word=bat` would match these lines:
 
@@ -39,15 +39,15 @@ either side.
     - `battery-powered`
     - `bubble bath`
 
-Add the following transform option to your PA7 implementation:
+2. Add the following transform option to your PA7 implementation:
 
-- `range=<number>,<number>` – selects a range of characters from the line
-starting at the first number (inclusive) and ending at the second number
-(exclusive), like `substring`. If the line is too short for the first index,
-the empty string is produced. If the line is too short for the second index,
-the transform should take as many characters as possible.
+    `range=<number>,<number>` – selects a range of characters from the line
+    starting at the first number (inclusive) and ending at the second number
+    (exclusive), like `substring`. If the line is too short for the first
+    index, the empty string is produced. If the line is too short for the
+    second index, the transform should take as many characters as possible.
 
-    **Examples**: The transform `range=4, 7` would have the following effects:
+    **Examples**: The transform `range=4,7` would have the following effects:
 
     - `hello` → `o`
     - `four` → an empty string
@@ -65,3 +65,4 @@ Identify the code that was there before and after.
 describe those changes as well.
 
 ## Submission
+
