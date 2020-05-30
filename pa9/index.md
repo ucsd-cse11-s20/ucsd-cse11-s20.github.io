@@ -31,8 +31,8 @@ interesting!
 
 ## Task 1
 
-Finish PA7 if you haven't already. You can submit it to `pa7-resubmit` to
-check your work.
+Since this PA is an extension of PA7, finish PA7 if you haven't already. 
+You can submit it to `pa7-resubmit` to check your work.
 
 (Remember that you can earn credit back for doing that, so it's really worth
 it to do so!)
@@ -98,5 +98,5 @@ Submit your `StringSearch.java` to `pa9` on Gradescope. There will be an
 autograder available while the assignment is out, and we will also give you 
 feedback on your code after submission. 
 
-Note that to graders' bandwidth and the grading of the two exams, we **do 
+Due to graders' bandwidth and the grading of the two exams, we **do 
 not have resubmission** on this PA. 
