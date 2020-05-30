@@ -42,8 +42,8 @@ Make sure to finish it _before_ going on to task 2.
 ## Task 2
 Starter code here: link TODO. 
 
-You can use the starter code provided, or directly
-continue work on your PA7 `StringSearch.java` if it passed PA7 autograder tests. 
+You can use the starter code provided, or directly build
+on top of your PA7 `StringSearch.java` if it passed PA7 autograder tests. 
 
 Note that you can get a significant amount of credit for just the PA9 tasks (based
 on starter code), but getting _full credit_ requires that you get PA7 working.
@@ -90,6 +90,19 @@ Identify the new classes/methods/parts of methods that were added.
 Identify the code that was there before and after.
 - If you made _other_ changes to your program to add these features,
 describe those changes as well.
+
+## Testing
+
+We encourage you to try different `java StringSearch ...` commands to test your 
+program before submission. 
+
+We will use the following kinds of tests to grade your code:
+- Tests where we use *only* a single new `word` query
+- Tests where we use *only* a single *old* query from PA7 and the new `range` transform
+- Tests where we use *only* a single new `word` query and a single new `range` transform
+- Tests where we use a sequence of queries where one or more of them is a new `word` query and some are old queries
+- Tests where we use a single existing query and a sequence of transforms where one or more them is a new `range`
+...
 
 
 ## Submission
