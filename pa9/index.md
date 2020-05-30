@@ -102,7 +102,7 @@ We will use the following kinds of tests to grade your code:
 - Tests where we use *only* a single new `word` query and a single new `range` transform
 - Tests where we use a sequence of queries where one or more of them is a new `word` query and some are old queries
 - Tests where we use a single existing query and a sequence of transforms where one or more them is a new `range`
-...
+- ...
 
 
 ## Submission
