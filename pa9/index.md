@@ -40,8 +40,11 @@ it to do so!)
 Make sure to finish it _before_ going on to task 2.
 
 ## Task 2
-Starter code here: link TODO. You can use the starter code provided, or directly
+Starter code here: link TODO. 
+
+You can use the starter code provided, or directly
 continue work on your PA7 `StringSearch.java` if it passed PA7 autograder tests. 
+
 Note that you can get a significant amount of credit for just the PA9 tasks (based
 on starter code), but getting _full credit_ requires that you get PA7 working.
 
@@ -88,9 +91,12 @@ Identify the code that was there before and after.
 - If you made _other_ changes to your program to add these features,
 describe those changes as well.
 
+
 ## Submission
 
 Submit your `StringSearch.java` to `pa9` on Gradescope. There will be an 
 autograder available while the assignment is out, and we will also give you 
-feedback on your code after submission. Note that to graders' bandwidth and 
-the grading of the two exams, we **do not have resubmission** on this PA. 
+feedback on your code after submission. 
+
+Note that to graders' bandwidth and the grading of the two exams, we **do 
+not have resubmission** on this PA. 
