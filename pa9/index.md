@@ -42,7 +42,7 @@ but getting _full credit_ requires that you get PA7 working.
 
 ## Task 2
 Starter code here: 
-[https://github.com/ucsd-cse11-s20/pa9-starter] (https://github.com/ucsd-cse11-s20/pa9-starter)
+[https://github.com/ucsd-cse11-s20/pa9-starter](https://github.com/ucsd-cse11-s20/pa9-starter)
 
 You can use the starter code provided, or directly build
 on top of your PA7 `StringSearch.java` if it passed PA7 autograder tests. 
