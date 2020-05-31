@@ -11,7 +11,11 @@ complete.**
 Due **Thursday**, June 4, 10pm.
 
 In this assignment, you will extend from PA7 and add more string manipulation 
-features. 
+features. Note that you can get a significant amount of credit for just the PA9 tasks (based
+on starter code), but getting _full credit_ requires that you get PA7 working.
+
+Also, due to graders' bandwidth and the grading of the two exams, we **do 
+not have resubmission or feedback tasks** on this PA. 
 
 Different assignments in this course have different collaboration policies.
 On this assignment, you cannot share code publicly on Piazza or with anyone
@@ -37,16 +41,12 @@ You can submit it to `pa7-resubmit` to check your work.
 (Remember that you can earn credit back for doing that, so it's really worth
 it to do so!)
 
-Make sure to finish it _before_ going on to task 2.
-
 ## Task 2
 Starter code here: link TODO. 
 
 You can use the starter code provided, or directly build
 on top of your PA7 `StringSearch.java` if it passed PA7 autograder tests. 
 
-Note that you can get a significant amount of credit for just the PA9 tasks (based
-on starter code), but getting _full credit_ requires that you get PA7 working.
 
 1. Add the following query option to your PA7 implementation:
 
@@ -84,9 +84,11 @@ on starter code), but getting _full credit_ requires that you get PA7 working.
 
 Answer the following questions in the `README` file.
 
-- Around how much code did you **add** in order to add these new features?
+- Around how much code did you **add** (on top of the starter code or your PA7 `StringSearch.java`) 
+in order to add these new features?
 Identify the new classes/methods/parts of methods that were added.
-- Around how much code did you **change** in order to add these new features?
+- Around how much code did you **change** (on top of the starter code or your PA7 `StringSearch.java`) 
+in order to add these new features?
 Identify the code that was there before and after.
 - If you made _other_ changes to your program to add these features,
 describe those changes as well.
@@ -110,6 +112,3 @@ We will use the following kinds of tests to grade your code:
 Submit your `StringSearch.java` to `pa9` on Gradescope. There will be an 
 autograder available while the assignment is out, and we will also give you 
 feedback on your code after submission. 
-
-Due to graders' bandwidth and the grading of the two exams, we **do 
-not have resubmission** on this PA. 
