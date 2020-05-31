@@ -4,9 +4,6 @@ title: "PA9 – UCSD CSE11 S20"
 doodle: "/doodle.png"
 ---
 
-**This is a draft and this notice will be removed when the assignment is
-complete.**
-
 # PA9 - More String Manipulation
 Due **Thursday**, June 4, 10pm.
 
