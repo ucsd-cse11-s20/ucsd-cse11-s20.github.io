@@ -108,6 +108,25 @@ We will use the following kinds of tests to grade your code:
 - Tests where we use a single existing query and a sequence of transforms where one or more them is a new `range`
 - ...
 
+The following commands, when run at the command line, should produce the following output:
+```
+$ java StringSearch "word='a'"
+This is a short file
+Also a haiku
+$ java StringSearch "word='is" "range=1,10"
+his is a 
+t contain
+$ java StringSearch "contains='text'" "range=3,15"
+contains tex
+$ java StringSearch "word='a'&less=15" "upper"
+ALSO A HAIKU
+$ java StringSearch "not(contains='and')" "range=2,100"
+is is a short file
+so a haiku
+$ java StringSearch "greater=1&contains='is'&word='file'" "replace='o';'0'&range=0,16"
+This is a sh0rt
+```
+
 
 ## Submission
 
