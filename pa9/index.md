@@ -11,8 +11,7 @@ complete.**
 Due **Thursday**, June 4, 10pm.
 
 In this assignment, you will extend from PA7 and add more string manipulation 
-features. Note that you can get a significant amount of credit for just the PA9 tasks (based
-on starter code), but getting _full credit_ requires that you get PA7 working.
+features. 
 
 Also, due to graders' bandwidth and the grading of the two exams, we **do 
 not have resubmission or feedback tasks** on this PA. 
@@ -35,11 +34,16 @@ interesting!
 
 ## Task 1
 
-Since this PA is an extension of PA7, finish PA7 if you haven't already. 
-You can submit it to `pa7-resubmit` to check your work.
+Since this PA is an extension of PA7, you can finish PA7 first and submit it 
+to `pa7-resubmit` to check your work. 
 
 (Remember that you can earn credit back for doing that, so it's really worth
 it to do so!)
+
+As an alternative, you can use the starter code without finishing PA7. You can 
+get a significant amount of credit for just the PA9 tasks (based on starter code), 
+but getting _full credit_ requires that you get PA7 working. 
+
 
 ## Task 2
 Starter code here: link TODO. 
@@ -55,7 +59,7 @@ on top of your PA7 `StringSearch.java` if it passed PA7 autograder tests.
     preceded by a space, or somewhere in the middle of the line with spaces on
     either side.
 
-    **Examples**: The query `word=bat` would match these lines:
+    **Examples**: The query `word='bat'` would match these lines:
 
     - `bat man really should be written as one word`
     - `step up to the bat`
