@@ -13,9 +13,6 @@ Due **Thursday**, June 4, 10pm.
 In this assignment, you will extend from PA7 and add more string manipulation 
 features. 
 
-Also, due to graders' bandwidth and the grading of the two exams, we **do 
-not have resubmission or feedback tasks** on this PA. 
-
 Different assignments in this course have different collaboration policies.
 On this assignment, you cannot share code publicly on Piazza or with anyone
 other than the course staff. If you need to share code, ask in a private
@@ -115,4 +112,6 @@ We will use the following kinds of tests to grade your code:
 
 Submit your `StringSearch.java` to `pa9` on Gradescope. There will be an 
 autograder available while the assignment is out, and we will also give you 
-feedback on your code after submission. 
+feedback on your code after submission. Due to graders' bandwidth and the 
+grading of the two exams, we **do not have** feedback tasks or a separate 
+resubmission assignment on Gradecope for you to get points back on this PA. 
