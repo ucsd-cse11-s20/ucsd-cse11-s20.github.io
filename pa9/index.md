@@ -110,20 +110,20 @@ We will use the following kinds of tests to grade your code:
 
 The following commands, when run at the command line, should produce the following output:
 ```
-$ java StringSearch "word='a'"
+$ java StringSearch "poem.txt" "word='a'"
 This is a short file
 Also a haiku
-$ java StringSearch "word='is" "range=1,10"
+$ java StringSearch "poem.txt" "word='is" "range=1,10"
 his is a 
 t contain
-$ java StringSearch "contains='text'" "range=3,15"
+$ java StringSearch "poem.txt" "contains='text'" "range=3,15"
 contains tex
-$ java StringSearch "word='a'&less=15" "upper"
+$ java StringSearch "poem.txt" "word='a'&less=15" "upper"
 ALSO A HAIKU
-$ java StringSearch "not(contains='and')" "range=2,100"
+$ java StringSearch "poem.txt" "not(contains='and')" "range=2,100"
 is is a short file
 so a haiku
-$ java StringSearch "greater=1&contains='is'&word='file'" "replace='o';'0'&range=0,16"
+$ java StringSearch "poem.txt" "greater=1&contains='is'&word='file'" "replace='o';'0'&range=0,16"
 This is a sh0rt
 ```
 
