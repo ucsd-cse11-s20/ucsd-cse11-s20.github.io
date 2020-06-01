@@ -130,7 +130,7 @@ This is a sh0rt
 
 ## Submission
 
-Submit your `StringSearch.java` to `pa9` on Gradescope. There will be an 
+Submit your `StringSearch.java` and `README` to `pa9` on Gradescope. There will be an 
 autograder available while the assignment is out, and we will also give you 
 feedback on your code after submission. Due to graders' bandwidth and the 
 grading of the two exams, we **do not have** feedback tasks or a separate 
