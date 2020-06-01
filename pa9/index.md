@@ -113,7 +113,7 @@ The following commands, when run at the command line, should produce the followi
 $ java StringSearch "poem.txt" "word='a'"
 This is a short file
 Also a haiku
-$ java StringSearch "poem.txt" "word='is" "range=1,10"
+$ java StringSearch "poem.txt" "word='is'" "range=1,10"
 his is a 
 t contain
 $ java StringSearch "poem.txt" "contains='text'" "range=3,15"
