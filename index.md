@@ -175,9 +175,9 @@ There are three components to your grade in the course:
 - 20% Engagement (surveys, lecture quizzes, etc)
 - 50% Programming Assignments (weekly)
 - 30% Exams (Code + video), 2 midterms + final
-  - Best exam performance counts for 15%
-  - Middle exam counts for 10%
-  - Lowest exam counts for 5%
+  - Best exam performance counts for ~~15%~~ 17%
+  - Middle exam counts for ~~10%~~ 12%
+  - Lowest exam counts for ~~5%~~ 1%
   - You must pass two out of three exams to pass the course
 
 <a id="g:engage"></a>
