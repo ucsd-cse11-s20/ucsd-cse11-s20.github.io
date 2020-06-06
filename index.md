@@ -180,6 +180,41 @@ There are three components to your grade in the course:
   - Lowest exam counts for ~~5%~~ 1%
   - You must pass two out of three exams to pass the course
 
+Your final letter grade will correspond to the following table:
+
+<table class="table table-striped">
+<tbody>
+<tr align="center" padding="10">
+<td>A+</td>
+<td>A</td>
+<td>A-</td>
+<td>B+</td>
+<td>B</td>
+<td>B-</td>
+<td>C+</td>
+<td>C</td>
+<td>C-</td>
+<td>D, F</td>
+</tr>
+<tr align="center">
+<td>&nbsp; >97&nbsp; </td>
+<td>&nbsp; 93-96.99 &nbsp; </td>
+<td>&nbsp; 90-92.99&nbsp; </td>
+<td>&nbsp; 87-89.99&nbsp; </td>
+<td>&nbsp; 83-86.99&nbsp; </td>
+<td>&nbsp; 80-82.99&nbsp; </td>
+<td>&nbsp; 77-79.99&nbsp; </td>
+<td>&nbsp; 73-76.99&nbsp; </td>
+<td>&nbsp; 65-72.99&nbsp; </td>
+<td>&nbsp; Below 64.99&nbsp; </td>
+</tr>
+</tbody>
+</table>
+
+We may adjust the above scale to be more lenient (depending on the overall
+class performance), but we guarantee that we will not adjust the scale to make
+it harder to get a better grade.
+
 <a id="g:engage"></a>
 <h3>Engagement</h3>
 
