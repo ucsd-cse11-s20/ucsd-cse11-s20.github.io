@@ -211,9 +211,10 @@ Your final letter grade will correspond to the following table:
 </tbody>
 </table>
 
-We may adjust the above scale to be more lenient (depending on the overall
-class performance), but we guarantee that we will not adjust the scale to make
-it harder to get a better grade.
+We may adjust the above scale to be more lenient (depending on a number of
+factors that we will not publicize), but we guarantee that we will not adjust
+the scale to make it harder to get a better grade. We will not adjust the
+scale for individual students.
 
 <a id="g:engage"></a>
 <h3>Engagement</h3>
