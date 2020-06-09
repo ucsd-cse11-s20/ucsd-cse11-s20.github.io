@@ -178,7 +178,12 @@ There are three components to your grade in the course:
   - Best exam performance counts for ~~15%~~ 17%
   - Middle exam counts for ~~10%~~ 12%
   - Lowest exam counts for ~~5%~~ 1%
-  - You must pass two out of three exams to pass the course
+  - To pass the course, you must either pass:
+    - Both midterms, or
+    - The final exam
+
+    (This policy changed to be slightly more lenient, allowing the final exam
+    to be sufficient even if both midterms were failed.)
 
 Your final letter grade will correspond to the following table:
 
