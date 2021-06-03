@@ -6,6 +6,14 @@ doodle: "/doodle.png"
 
 # Accelerated Intro to Programming (UCSD CSE 11)
 
+<div style="outline: 1px solid red; height: 10em; width:100%; padding: 1em; margin-bottom: 40em;">
+<p>This is a previous version of the course (Spring 2020). For the Fall 2021
+edition, see <a
+href="https://ucsd-cse11-f21.github.io/">https://ucsd-cse11-f21.github.io/</a>.
+If you want to see the older version, scroll down.</p>
+</div>
+
+
 <a href="https://jpolitz.github.io">Joe Gibbs Politz</a> (Instructor)
 
 <p>
